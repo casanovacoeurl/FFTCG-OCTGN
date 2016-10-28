@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" sleeveid="0">
+  <section name="Forwards" shared="False">
+    <card qty="2" id="da95ff61-67d3-4bd9-baf3-8770370f77da">Samurai</card>
+    <card qty="2" id="a758015a-5c2a-4b36-9f2b-6fc318166142">Squire</card>
+    <card qty="3" id="125a98ab-63f7-4d54-9d1a-e435ba434c95">Cloud</card>
+    <card qty="3" id="d6234fe0-11cc-4d61-b01a-e0ae6353e41a">Tifa</card>
+    <card qty="3" id="e1a607a1-3db3-451f-add1-0f75847e9c8f">Red XIII</card>
+    <card qty="2" id="fa1987d8-37cc-4f24-bbbe-37bf623c53fc">Dark Knight</card>
+    <card qty="2" id="bc88e4ee-b36e-421f-bbea-51d25bc5df23">Black Belt</card>
+    <card qty="3" id="69b6e624-9c5b-4611-b3e6-dc866df1ecde">Vincent</card>
+    <card qty="3" id="9b140868-c496-4735-86e8-c905787aedcd">Barrett</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="2" id="a03c4396-bc7e-4731-8157-b2e8faf37aec">Black Mage</card>
+    <card qty="2" id="28181b6b-8191-45eb-9884-ea838c11fe17">Evoker</card>
+    <card qty="2" id="0b41a102-a7cf-44cb-8f83-c25c68985659">Sorcerer</card>
+    <card qty="3" id="387585c0-8c7d-4e8c-8327-809d5cb01f85">Zangan</card>
+    <card qty="2" id="1faafb17-315d-42ed-b3b8-283919f21b6a">Monk</card>
+    <card qty="3" id="cfb408dc-01cc-4e10-990e-ca2cf06407b0">Wedge</card>
+    <card qty="3" id="d70b370f-50f3-4990-a2cd-93b85e207257">Jesse</card>
+    <card qty="3" id="eccdb6e8-28ca-4b9f-bae5-1efb0ab8f74b">Biggs</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="647e3bc6-de28-499e-bbda-76cacafb3b0d">Ifrit</card>
+    <card qty="3" id="f8779358-4571-405f-8cd9-f2382428c9ad">Bahamut Fury</card>
+    <card qty="2" id="3ce2180d-1a5f-4ad2-981a-58bcef886d39">Golem</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

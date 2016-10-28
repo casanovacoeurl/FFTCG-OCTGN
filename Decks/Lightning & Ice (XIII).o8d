@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" sleeveid="0">
+  <section name="Forwards" shared="False">
+    <card qty="2" id="c569df5e-168b-4e7f-b4d9-3e6821594176">Dark Knight</card>
+    <card qty="2" id="1fea03a5-0ed3-4472-8b83-e79335c10d30">Dark Knight</card>
+    <card qty="3" id="c0e1489e-45b0-4772-8f84-eebfcf985780">Cid Raines</card>
+    <card qty="3" id="cabe07cb-3b45-43c6-a6d4-b9a7c0c5336a">Snow</card>
+    <card qty="3" id="3dee8121-5aa3-41b5-b46b-d9a1209b8f0f">Serah</card>
+    <card qty="2" id="859faf0b-dbbe-41fb-820d-bc16f22059e3">Dragoon</card>
+    <card qty="3" id="287bafc9-492b-42fe-a583-b3272af1691c">Gilgamesh</card>
+    <card qty="3" id="794f104e-5049-440a-9605-d88a2e81044b">Noel</card>
+    <card qty="3" id="8eaa5227-4910-4c27-ab7b-575509a98738">Lightning</card>
+    <card qty="3" id="c0c70c87-e131-4632-b2b5-6a62069411cc">Rygdea</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="2" id="912a4cda-df31-4cb5-93d8-144f991c915c">Bard</card>
+    <card qty="2" id="af37e228-b3f2-47e8-8d1c-fdb183d7e682">Summoner</card>
+    <card qty="3" id="7ab22c84-c1b5-4280-ad0c-e8c0e4550b21">Jihl Nabaat</card>
+    <card qty="3" id="6f80ade5-2bb3-48f9-b786-1bc3ba8f0f67">Mog (XIII-2)</card>
+    <card qty="2" id="c5bee0c3-66e4-4de4-b054-62f0e618d78c">Sage</card>
+    <card qty="2" id="8c4e09ee-6cf0-48b4-bdec-26e424326089">Summoner</card>
+    <card qty="2" id="3ddc369b-8e41-4576-afc5-dec022971d4c">Sorcerer</card>
+    <card qty="3" id="f1c8fda6-252b-46ed-9632-949878469a44">Maqui</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="386ca037-7165-4968-8869-880e0d094f20">Shiva</card>
+    <card qty="2" id="dd87a1f0-faa9-45a6-8345-6dd4e2362bff">Odin</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

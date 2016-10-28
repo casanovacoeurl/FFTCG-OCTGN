@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<set name="Debug Set" 
+	id="452d1698-92f6-4360-98af-c5835fb1f1c0" 
+	gameId="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" 
+	gameVersion="0.0.0.3" 
+	version="0.3" 
+	hidden="true">
+	<markers>
+		<marker id="270de920-f4ae-4c01-9f5f-71e03304ab6c" name="marker_boost" />
+		<marker id="63267618-6381-4920-98cc-def3e4b5e73e" name="marker_damage" />
+	</markers>
+	<cards>
+		<card name="Debug Card" id="c04d8d37-19f9-4b3d-a28d-27408f746324">
+			<property name="CP" value="1" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Debug" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="" />
+			<property name="SetNumber" value="" />
+			<property name="CardNumber" value="" />
+			<property name="Rarity" value="" />
+			<property name="Category" value="Debug" />
+			<property name="CanUseEX" value="No" />
+		</card>
+	</cards>
+</set>

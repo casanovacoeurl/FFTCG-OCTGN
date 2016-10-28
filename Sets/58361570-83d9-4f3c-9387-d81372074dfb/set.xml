@@ -1,0 +1,2894 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<set name="Opus I" 
+	id="58361570-83d9-4f3c-9387-d81372074dfb" 
+	gameId="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" 
+	gameVersion="0.1.0.1" 
+	version="1.0">
+	<cards>
+		<card name="Auron" id="11c3f62d-2e44-495c-9d5c-a43ffd91cc5e">
+			<property name="CP" value="6" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Guardian" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="When Auron deals damage to your opponent, you may play 1 Fire Backup from your hand onto the field dull." />
+			<property name="SetNumber" value="1-001" />
+			<property name="CardNumber" value="1" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Auron" id="33327f1d-2968-438a-a757-9c0efc2070c6">
+			<property name="CP" value="5" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Guardian" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="The Backups you control cannot be broken by your opponent's Summons or abilities." />
+			<property name="SetNumber" value="1-002" />
+			<property name="CardNumber" value="2" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Red Mage" id="22642d28-f5b1-42b8-b9e4-278717c5b641">
+			<property name="CP" value="2" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(1 Fire, 1 CP, dull): Choose 1 Forward. It cannot block this turn." />
+			<property name="SetNumber" value="1-003" />
+			<property name="CardNumber" value="3" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Ifrit" id="647e3bc6-de28-499e-bbda-76cacafb3b0d">
+			<property name="CP" value="1" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Choose 1 Forward. Deal it 4000 damage." />
+			<property name="SetNumber" value="1-004" />
+			<property name="CardNumber" value="4" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Warrior of Light" id="d99c0e9c-d43c-428b-a1dc-4b5a41726f20">
+			<property name="CP" value="2" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Warrior" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="If Warrior of Light deals damage to a Forward of cost 4 or more, double the damage instead." />
+			<property name="SetNumber" value="1-005" />
+			<property name="CardNumber" value="5" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● I" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Garland" id="fb1100e2-fb2c-407b-8a47-432553b8b5df">
+			<property name="CP" value="5" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Knight" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="Brave
+			&#10;When Garland attacks, Garland gains +4000 power until the end of the turn." />
+			<property name="SetNumber" value="1-006" />
+			<property name="CardNumber" value="6" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● I" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Gadot" id="d58338ab-1c9a-4aea-98df-68e6b7ded6fe">
+			<property name="CP" value="2" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="NORA" />
+			<property name="Power" value="4000" />
+			<property name="Abilities" value="When Gadot enters the field, you may play 1 Fire Forward of cost 2 or less from your hand onto the field.
+			&#10;When Gadot enters the field, all the Forwards you control gain +1000 power until the end of the turn." />
+			<property name="SetNumber" value="1-007" />
+			<property name="CardNumber" value="7" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Ranger" id="5835fd21-374f-42d4-8a9e-f75f08070df2">
+			<property name="CP" value="2" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(1 Fire, 1 CP, dull): Choose 1 Forward of cost 3 or less. Deal it 2000 damage." />
+			<property name="SetNumber" value="1-008" />
+			<property name="CardNumber" value="8" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Cloud" id="83ee41f6-8390-493e-bd1a-9b7c0bc88fbc">
+			<property name="CP" value="2" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="SOLDIER" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="If you control a [Category (VII)] Forward other than Cloud, Cloud gains +2000 power.
+			&#10;When Cloud enters the field, choose 1 Forward opponent controls. Deal it 2000 damage." />
+			<property name="SetNumber" value="1-009" />
+			<property name="CardNumber" value="9" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Black Mage" id="a03c4396-bc7e-4731-8157-b2e8faf37aec">
+			<property name="CP" value="2" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(1 Fire, dull, put Black Mage into the Break Zone): Choose 1 Forward. Deal it 4000 damage." />
+			<property name="SetNumber" value="1-010" />
+			<property name="CardNumber" value="10" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Evoker" id="28181b6b-8191-45eb-9884-ea838c11fe17">
+			<property name="CP" value="1" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="" />
+			<property name="SetNumber" value="1-011" />
+			<property name="CardNumber" value="11" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Zach" id="fb5ee5b5-73ac-4009-a8b7-77ea9bb41bb3">
+			<property name="CP" value="3" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="SOLDIER" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="If you control [Card Name (Aerith)], Zach gains +2000 power.
+			&#10;When Zach enters the field, choose 1 Forward opponent controls. Deal it 2000 damage." />
+			<property name="SetNumber" value="1-012" />
+			<property name="CardNumber" value="12" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Sazh" id="c4fbf6e3-56ca-42c3-a233-5029825e3d25">
+			<property name="CP" value="3" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Ravager" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(Dull): Choose 1 Forward. Deal it 2000 damage. Sazh will not activate during your next Active Phase. If you have cast [Card Name (Brynhildr)] this turn, deal that Forward 4000 damage instead. Sazh will not activate during your next Active Phase." />
+			<property name="SetNumber" value="1-013" />
+			<property name="CardNumber" value="13" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Samurai" id="da95ff61-67d3-4bd9-baf3-8770370f77da">
+			<property name="CP" value="3" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="Brave" />
+			<property name="SetNumber" value="1-014" />
+			<property name="CardNumber" value="14" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Jecht" id="21e511f8-6371-411b-949d-72fc47de5003">
+			<property name="CP" value="5" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Guardian" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="For each Forward your opponent controls, Jecht gains +1000 power.
+			&#10;Ultimate Jecht Shot [S] (1 Fire, 2 CP, dull): Choose 1 Forward. Break it." />
+			<property name="SetNumber" value="1-015" />
+			<property name="CardNumber" value="15" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="DFF ● X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Tifa" id="3d387133-f8ee-4619-83eb-9c6b5d870bb2">
+			<property name="CP" value="2" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Martial Artist" />
+			<property name="Power" value="4000" />
+			<property name="Abilities" value="Haste" />
+			<property name="SetNumber" value="1-016" />
+			<property name="CardNumber" value="16" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Dajh" id="925aed75-9a5e-4e68-a957-5f3766ec2228">
+			<property name="CP" value="2" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="L'Cie" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="If you control [Card Name (Sazh)], it cannot be chosen by your opponent's Summons or abilities." />
+			<property name="SetNumber" value="1-017" />
+			<property name="CardNumber" value="17" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Bahamut" id="95adb8cc-e98a-41d9-b683-ee458c74e0a7">
+			<property name="CP" value="9" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="Choose up to 2 Forwards opponent controls. Deal them 10000 damage. If they are put from the field into the Break Zone this turn, remove them from the game instead." />
+			<property name="SetNumber" value="1-018" />
+			<property name="CardNumber" value="18" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Chocobo Chick" id="2721debf-4b60-4144-8520-e23695cf4772">
+			<property name="CP" value="2" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Chocobo Chick" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(1 Fire, dull): Choose 1 Fire Backup. Activate it." />
+			<property name="SetNumber" value="1-019" />
+			<property name="CardNumber" value="19" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Fang" id="540bd0a0-72af-48f4-901f-e3822135907d">
+			<property name="CP" value="4" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Commando" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="The cost required to cast [Card Name (Bahamut)] is reduced by 2 (it cannot become 0).
+			&#10;When Fang attacks, Fang gains First Strike until the end of the turn." />
+			<property name="SetNumber" value="1-020" />
+			<property name="CardNumber" value="20" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Firion" id="ad89e2b6-f081-4272-93e6-302534a091c1">
+			<property name="CP" value="4" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Rebel" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="When Firion enters the field, choose 1 Forward. Deal it 4000 damage." />
+			<property name="SetNumber" value="1-021" />
+			<property name="CardNumber" value="21" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="II" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Firion" id="54580848-9243-49bc-aa15-aeb08f10cac7">
+			<property name="CP" value="4" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Warrior" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="(1 CP): Firion gains First Strike until the end of the turn.
+			&#10;(1 CP): Firion gains Brave until the end of the turn.
+			&#10;(2 CP): Choose 1 Forward. Deal it 1000 damage.
+			&#10;(2 CP): Firion gains +1000 power until the end of the turn." />
+			<property name="SetNumber" value="1-022" />
+			<property name="CardNumber" value="22" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● II" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Brynhildr" id="3b0bb17b-4698-4769-93c8-137229956e78">
+			<property name="CP" value="3" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Choose 1 Forward. Deal it 7000 damage." />
+			<property name="SetNumber" value="1-023" />
+			<property name="CardNumber" value="23" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Magus" id="0b41a102-a7cf-44cb-8f83-c25c68985659">
+			<property name="CP" value="3" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Magus enters the field, deal 3000 damage to all the Forwards opponent controls." />
+			<property name="SetNumber" value="1-024" />
+			<property name="CardNumber" value="24" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Squire" id="a758015a-5c2a-4b36-9f2b-6fc318166142">
+			<property name="CP" value="2" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="" />
+			<property name="SetNumber" value="1-025" />
+			<property name="CardNumber" value="25" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Squire" id="7919749d-517b-4661-a738-9370d90e8697">
+			<property name="CP" value="1" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="3000" />
+			<property name="Abilities" value="" />
+			<property name="SetNumber" value="1-026" />
+			<property name="CardNumber" value="26" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Lann" id="d68c6381-a4c0-486f-882a-0a07b194b1dd">
+			<property name="CP" value="3" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Mirage Keeper" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="Lann cannot be blocked by a Forward with a power greater than his.
+			&#10;Lann cannot block a Forward with a power greater than his." />
+			<property name="SetNumber" value="1-027" />
+			<property name="CardNumber" value="27" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="WOFF" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Reynn" id="0285b81e-0fab-48a2-8e72-da368e4ef5fe">
+			<property name="CP" value="4" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Mirage Keeper" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: When Reynn enters the field, you may search for 1 [Card Name (Lann)] and add it to your hand.
+			&#10;(1 Fire, 1 CP, dull): Choose 1 [Card Name (Lann)]. It gains +1000 power until the end of the turn." />
+			<property name="SetNumber" value="1-028" />
+			<property name="CardNumber" value="28" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="WOFF" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Red XIII" id="5998a3bb-2a64-45a3-9b87-c630abdba607">
+			<property name="CP" value="2" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Warrior" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="First Strike" />
+			<property name="SetNumber" value="1-029" />
+			<property name="CardNumber" value="29" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Lebreau" id="2ff5555f-a1ee-46e4-ae63-b12eff267c04">
+			<property name="CP" value="3" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="NORA" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="The Fire Forwards you control gain +1000 power." />
+			<property name="SetNumber" value="1-030" />
+			<property name="CardNumber" value="30" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Chemist" id="70cdc4fb-5411-42ac-bb48-894ed8badcfa">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Chemist enters the field, choose 1 Forward. Dull it." />
+			<property name="SetNumber" value="1-031" />
+			<property name="CardNumber" value="31" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Chemist" id="a51e4619-af91-4137-8ee8-29601c6f2e49">
+			<property name="CP" value="2" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Chemist enters the field, choose 1 Forward. It cannot be broken this turn." />
+			<property name="SetNumber" value="1-032" />
+			<property name="CardNumber" value="32" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Argath" id="9e83b7ca-a2df-4a6c-a157-c39f37411ca0">
+			<property name="CP" value="2" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Squire" />
+			<property name="Power" value="3000" />
+			<property name="Abilities" value="When Argath enters the field, your opponent discards 1 card from his/her hand." />
+			<property name="SetNumber" value="1-033" />
+			<property name="CardNumber" value="33" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Orran" id="1ef287b0-e813-4bf0-8cf5-6965e3982a09">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Astrologer" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="Celestial Stasis [S] (3 Ice, dull): Dull all the Forwards opponent controls." />
+			<property name="SetNumber" value="1-034" />
+			<property name="CardNumber" value="34" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Bard" id="3f794113-eb8a-42bd-a563-63d73beb44c7">
+			<property name="CP" value="2" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="4000" />
+			<property name="Abilities" value="(2 Ice, dull): Choose 1 Forward. Dull it." />
+			<property name="SetNumber" value="1-035" />
+			<property name="CardNumber" value="35" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Bard" id="912a4cda-df31-4cb5-93d8-144f991c915c">
+			<property name="CP" value="2" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(1 Ice, dull, put Bard into the Break Zone): Your opponent discards 1 card from his/her hand." />
+			<property name="SetNumber" value="1-036" />
+			<property name="CardNumber" value="36" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Kuja" id="887321e1-efa9-4b8d-83d5-9a31fbf3f2ba">
+			<property name="CP" value="5" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Genome" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="When Kuja is chosen by a Summon or an ability of your opponent, your opponent discards 1 card from his/her hand." />
+			<property name="SetNumber" value="1-037" />
+			<property name="CardNumber" value="37" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● IX" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Shiva" id="386ca037-7165-4968-8869-880e0d094f20">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Choose 1 Forward. Dull and Freeze it." />
+			<property name="SetNumber" value="1-038" />
+			<property name="CardNumber" value="38" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Shiva" id="9e28a1b0-8d1d-4e21-9ff3-8ba15fd7e105">
+			<property name="CP" value="1" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Choose 1 dull Forward. Deal it 5000 damage." />
+			<property name="SetNumber" value="1-039" />
+			<property name="CardNumber" value="39" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Summoner" id="af37e228-b3f2-47e8-8d1c-fdb183d7e682">
+			<property name="CP" value="1" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="" />
+			<property name="SetNumber" value="1-040" />
+			<property name="CardNumber" value="40" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Squall" id="6b551e3c-013e-4376-86fc-2d46455507a0">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="SeeD" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="When Squall blocks or is blocked, choose 1 Forward. You may deal it 6000 damage.
+			&#10;Renzokuken [S] (1 Ice): Squall gains First Strike until the end of the turn." />
+			<property name="SetNumber" value="1-041" />
+			<property name="CardNumber" value="41" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="VIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Squall" id="4a873407-0fa0-4520-8649-4c7c5fee4522">
+			<property name="CP" value="4" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="SeeD" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="If you control [Card Name (Laguna)], Squall gains +3000 power.
+			&#10;When Squall enters the field, each displayer discards 1 card from his/her hand. If you control [Card Name (Laguna)], your opponent discards 1 more card from his/her hand." />
+			<property name="SetNumber" value="1-042" />
+			<property name="CardNumber" value="42" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● VIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Snow" id="9883f707-ef60-4a5f-8eb8-b7ebbcab8663">
+			<property name="CP" value="1" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Commando" />
+			<property name="Power" value="3000" />
+			<property name="Abilities" value="When Snow attacks, choose 1 Forward your opponent controls. Dull it. If you have cast [Card Name (Shiva)] this turn, Freeze it also." />
+			<property name="SetNumber" value="1-043" />
+			<property name="CardNumber" value="43" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Sephiroth" id="5419f4be-4eac-4956-8409-b89126358808">
+			<property name="CP" value="5" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="SOLDIER" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="First Strike
+			&#10;When Sephiroth enters the field, each player discards 2 cards from his/her hand." />
+			<property name="SetNumber" value="1-044" />
+			<property name="CardNumber" value="44" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Serah" id="b8487bb8-a966-46c3-8216-56b20b0be47d">
+			<property name="CP" value="2" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="L'Cie" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="If you control [Card Name (Snow)], it cannot be chosen by your opponent's abilities." />
+			<property name="SetNumber" value="1-045" />
+			<property name="CardNumber" value="45" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Terra" id="bee5fb49-28fc-4ce5-8dd7-92eed24799fd">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Magitek Knight" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="The cost required for your opponent to cast Summons increases by 1.
+			&#10;Terra cannot be chosen by opponent's Summons.
+			&#10;Trance [S] (2 Ice): Until the end of the turn, Terra gains +3000 power and First Strike." />
+			<property name="SetNumber" value="1-046" />
+			<property name="CardNumber" value="46" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● VI" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Terra" id="4f56cd54-019c-46ce-9e4e-42c479e2b8ae">
+			<property name="CP" value="4" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Magitek Knight" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Terra enters the field, choose up to 2 dull Forwards opponent controls. Deal them 4000 damage.
+			&#10;(1 Ice): Choose 1 dull Forward. Deal it 1000 damage.
+			&#10;Magic Charge [S]: Terra gains 'If Terra deals damage to a Forward, double the damage' until the end of the turn." />
+			<property name="SetNumber" value="1-047" />
+			<property name="CardNumber" value="47" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● VI" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Devout" id="bbfc4cd9-4f35-45a3-ac29-cba655733132">
+			<property name="CP" value="4" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(Dull, put Devout into the Break Zone): Choose 1 forward in your Break Zone of cost 4 or less. Play it. You can only use this ability on your turn." />
+			<property name="SetNumber" value="1-048" />
+			<property name="CardNumber" value="48" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Time Mage" id="43dbd8ff-c798-47af-8143-14e9c72127ce">
+			<property name="CP" value="2" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(1 Ice, dull): Choose 1 Forward. It cannot attack this turn." />
+			<property name="SetNumber" value="1-049" />
+			<property name="CardNumber" value="49" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Knight" id="1f1d8406-8bb9-4474-a007-a7701df6dc13">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="" />
+			<property name="SetNumber" value="1-050" />
+			<property name="CardNumber" value="50" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Nooj" id="723cb878-b509-469b-9de5-ebe2dd61f65f">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Mevyn" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Nooj enters the field, your opponent discards 1 card from his/her hand.
+			&#10;When Nooj leaves the field, your opponent draws 1 card." />
+			<property name="SetNumber" value="1-051" />
+			<property name="CardNumber" value="51" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Hades" id="a39359b2-c8b0-40ce-9620-5296fbbe7783">
+			<property name="CP" value="5" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="Choose 1 Forward and 1 Backup opponent controls. Dull the Forward and return the Backup to its owner's hand. Your opponent discards 1 card from his/her hand." />
+			<property name="SetNumber" value="1-052" />
+			<property name="CardNumber" value="52" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Summoner" id="4624d0d1-dd01-4e34-8288-1228154985c1">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(1 Ice, put Summoner into the Break Zone): Choose 1 Summon. Cancel its effect." />
+			<property name="SetNumber" value="1-053" />
+			<property name="CardNumber" value="53" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Dark Knight" id="c569df5e-168b-4e7f-b4d9-3e6821594176">
+			<property name="CP" value="4" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="(2 Ice): Deal 1000 damage to all the Forwards opponent controls." />
+			<property name="SetNumber" value="1-054" />
+			<property name="CardNumber" value="54" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Dark Knight" id="1fea03a5-0ed3-4472-8b83-e79335c10d30">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="When Dark Knight is put from the field into the Break Zone, Dark Knight deals you 1 point of damage." />
+			<property name="SetNumber" value="1-055" />
+			<property name="CardNumber" value="55" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Josef" id="b88f1d60-8d9c-4ba4-8d0d-7abe102ff20e">
+			<property name="CP" value="4" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Rebel" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="Brave
+			&#10;(Dull, put Josef into the Break Zone): Choose 1 blocking Forward. It cannot be broken this turn." />
+			<property name="SetNumber" value="1-056" />
+			<property name="CardNumber" value="56" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Duke Larg" id="8cbcb12b-fb1a-4acd-ab51-9262d12c802f">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Duke" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="The Ice Forwards you control gain +1000 power." />
+			<property name="SetNumber" value="1-057" />
+			<property name="CardNumber" value="57" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Laguna" id="f767e406-4718-4033-b703-282e3f39dd1e">
+			<property name="CP" value="5" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Marksman" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="When Laguna deals damage to your opponent, choose 1 dull Forward. You may deal it 7000 damage.
+			&#10;Desperado [S] (2 Ice): Choose 1 dull Forward. Deal it 9000 damage." />
+			<property name="SetNumber" value="1-058" />
+			<property name="CardNumber" value="58" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="VIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Laguna" id="d77a297c-0e9c-4b40-9046-2f24d402ffcc">
+			<property name="CP" value="4" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Marksman" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="EX Burst: When Laguna enters the field, choose 1 Forward your opponent controls. Dull it. If you control [Card Name (Squall)], Freeze this forward also.
+			&#10;If you control [Card Name (Squall)], Laguna gains +2000 power." />
+			<property name="SetNumber" value="1-059" />
+			<property name="CardNumber" value="59" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● VIII" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Leon" id="aed96089-7bde-4d79-9741-4401daf1ab00">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Dark Knight" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="When Leon enters the field, your opponent may play 1 Character Card from his/her hand onto the field." />
+			<property name="SetNumber" value="1-060" />
+			<property name="CardNumber" value="60" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="II" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Alexander" id="98e1c1d8-fd67-4c22-908c-a7539277da25">
+			<property name="CP" value="4" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Choose 1 Forward of cost 5 or more. Break it." />
+			<property name="SetNumber" value="1-061" />
+			<property name="CardNumber" value="61" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Valefor" id="87409567-d57c-4fde-a2df-e4462a984911">
+			<property name="CP" value="5" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="Return all Forwards to their owners' hands." />
+			<property name="SetNumber" value="1-062" />
+			<property name="CardNumber" value="62" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Vaan" id="ca9a2d37-d93b-4ec2-ba12-8929f0a04f28">
+			<property name="CP" value="5" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Sky Pirate" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Vaan enters the field, you may play 1 Wind Forward of cost 3 or less from your hand onto the field.
+			&#10;When Vaan attacks, choose up to 2 Backups you control. Activate them." />
+			<property name="SetNumber" value="1-063" />
+			<property name="CardNumber" value="63" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● XII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Aerith" id="e94747af-4141-491c-a9d3-5f4dbff9548a">
+			<property name="CP" value="3" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Ancient" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Aerith enters the field, choose up to 3 Backups you control other than Aerith. Activate them.
+			&#10;Planer Protector [S] (Dull): Activate all Forwards you control. They cannot be chosen by Summons or abilities this turn." />
+			<property name="SetNumber" value="1-064" />
+			<property name="CardNumber" value="64" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Aerith" id="3db2d81b-fbe4-4cf2-a3fd-c603a9dd4fcf">
+			<property name="CP" value="2" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Ancient" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Aerith enters the field, choose 1 Backup you control other than Aerith. Activate it." />
+			<property name="SetNumber" value="1-065" />
+			<property name="CardNumber" value="65" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Dancer" id="25eac5ad-e08c-498e-a4ce-2bb7096f26e4">
+			<property name="CP" value="3" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(Dull): Deal 1000 damage to all the Forwards opponent controls." />
+			<property name="SetNumber" value="1-066" />
+			<property name="CardNumber" value="66" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Onion Knight" id="1f4848ac-4042-44ff-a498-fd3388d7f9a8">
+			<property name="CP" value="4" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Ninja" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="When Onion Knight enters the field, choose 1 Backup you control. Activate it." />
+			<property name="SetNumber" value="1-067" />
+			<property name="CardNumber" value="67" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Evoker" id="2cb2432c-3627-4a60-a55a-0fdf0a1b770e">
+			<property name="CP" value="1" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="" />
+			<property name="SetNumber" value="1-068" />
+			<property name="CardNumber" value="68" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Thief" id="166f821d-9830-4b43-8155-22177551a812">
+			<property name="CP" value="2" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="When Thief enters the field, your opponent puts the top card of his/her deck into the Break Zone." />
+			<property name="SetNumber" value="1-069" />
+			<property name="CardNumber" value="69" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Thief" id="e9e035cb-8c04-4862-abaa-23ce02ec5ed3">
+			<property name="CP" value="2" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Thief enters the field, your opponent puts the top card of his/her deck into the Break Zone." />
+			<property name="SetNumber" value="1-070" />
+			<property name="CardNumber" value="70" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Zidane" id="7a002556-83f4-4c50-a4c9-6432185df60e">
+			<property name="CP" value="2" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Genome" />
+			<property name="Power" value="3000" />
+			<property name="Abilities" value="Zidane cannot be selected by your opponent's Summons or abilities.
+			&#10;Zidane cannot be blocked by a Forward of cost 4 or more." />
+			<property name="SetNumber" value="1-071" />
+			<property name="CardNumber" value="71" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="DFF ● IX" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Cid Highwind" id="16104056-3570-490b-a1c7-08ff0454c07a">
+			<property name="CP" value="4" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Pilot" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="When the Forward that took damage from Cid Highwind is put from the field into the Break Zone on the same turn, your opponent puts the top 2 cards of his/her deck into the Break Zone.
+			&#10;Highwind [S] (Dull): Your opponent puts the top 2 cards of their deck into the Break Zone." />
+			<property name="SetNumber" value="1-072" />
+			<property name="CardNumber" value="72" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Cid Highwind" id="398b30a2-5515-4c13-a70f-24897ff55591">
+			<property name="CP" value="2" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Pilot" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="When the Forward that took damage from Cid Highwind is put from the field into the Break Zone on the same turn, your opponent puts the top 2 cards of his/her deck into the Break Zone." />
+			<property name="SetNumber" value="1-073" />
+			<property name="CardNumber" value="73" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Sylph" id="ae5aace1-12aa-4d09-a8f2-5684b68c52ab">
+			<property name="CP" value="1" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Choose 1 Forward. Activate it. All the Forwards you control gain +1000 power until the end of the turn." />
+			<property name="SetNumber" value="1-074" />
+			<property name="CardNumber" value="74" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Chocobo" id="2b0b2085-a25f-4284-9cb6-9bfc347c920b">
+			<property name="CP" value="3" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="4000" />
+			<property name="Abilities" value="Haste
+			&#10;When Chocobo forms a party and attacks, Chocobo and all the Forwards forming a party with it gain +3000 power until the end of the turn." />
+			<property name="SetNumber" value="1-075" />
+			<property name="CardNumber" value="75" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Chocobo" id="1d45e77a-fdc2-4a84-8626-d74da1aedc4b">
+			<property name="CP" value="1" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="3000" />
+			<property name="Abilities" value="When Chocobo forms a party and attacks, Chocobo and all the Forwards forming a party with it gain +2000 power until the end of the turn." />
+			<property name="SetNumber" value="1-076" />
+			<property name="CardNumber" value="76" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Devout" id="4c89150f-720c-44a1-82f2-f4255d39affb">
+			<property name="CP" value="5" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Devout enters the field, choose 1 Forward of cost 2 or less from your Break Zone. Play it onto the field." />
+			<property name="SetNumber" value="1-077" />
+			<property name="CardNumber" value="77" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Ninja" id="8b262ff0-be07-48d9-b8d3-e4c073e215c5">
+			<property name="CP" value="3" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="(1 Wind, discard 1 card from your hand): Choose 1 Forward. Deal it 2000 damage." />
+			<property name="SetNumber" value="1-078" />
+			<property name="CardNumber" value="78" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Nora" id="267f8f59-7a3f-478e-b419-d2f3d8f35829">
+			<property name="CP" value="3" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Mother" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: When Nora enters the field, you may search for 1 [Card Name (Hope)] and add it to your hand." />
+			<property name="SetNumber" value="1-079" />
+			<property name="CardNumber" value="79" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Bartz" id="dc631712-9c98-4df1-a792-9adf119853b6">
+			<property name="CP" value="5" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Wanderer" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="EX Burst: When Bartz enters the field, activate all the Wind characters you control." />
+			<property name="SetNumber" value="1-080" />
+			<property name="CardNumber" value="80" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● V" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Bartz" id="8eab0744-c063-43c4-9560-9e5348007030">
+			<property name="CP" value="4" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Wanderer" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="Bartz has all the Jobs." />
+			<property name="SetNumber" value="1-081" />
+			<property name="CardNumber" value="81" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● V" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Hope" id="5150f952-9cdb-4553-8598-a855d5ee1fd5">
+			<property name="CP" value="3" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Ravager" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Hope enters the field, choose 1 Backup you control. Activate it. If you have cast [Card Name (Alexander)] this turn, activate all the Backups you control instead." />
+			<property name="SetNumber" value="1-082" />
+			<property name="CardNumber" value="82" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Maria" id="5ef07a8e-2a40-48d4-9983-2db9716b43ad">
+			<property name="CP" value="4" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Rebel" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="The Forwards you control gain +1000 power." />
+			<property name="SetNumber" value="1-083" />
+			<property name="CardNumber" value="83" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="II" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Y'shtola" id="9e1d3b8f-ee1e-428e-82c2-6ed2445c7902">
+			<property name="CP" value="2" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Scion of the Seventh Dawn" />
+			<property name="Power" value="3000" />
+			<property name="Abilities" value="(1 Wind): Choose 1 Forward. Deal it 1000 damage.
+			&#10;(Dull): Choose 1 Forward. Deal it 2000 damage." />
+			<property name="SetNumber" value="1-084" />
+			<property name="CardNumber" value="84" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● XIV" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Yuffie" id="73fb942f-fe10-4331-92e9-e0ea2d0e6f5a">
+			<property name="CP" value="3" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Ninja" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="Yuffie cannot be blocked by a Forward of cost 4 or more.
+			&#10;Bloodfest [S] (Dull): Choose up to 3 Forwards. Divide 6000 damage among them as you like. (Unit must be 1000.)" />
+			<property name="SetNumber" value="1-085" />
+			<property name="CardNumber" value="85" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Yuffie" id="b7f7838d-357f-4a2b-994d-e23563add5eb">
+			<property name="CP" value="1" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Ninja" />
+			<property name="Power" value="3000" />
+			<property name="Abilities" value="Yuffie cannot be blocked by a Forward of cost 3 or more." />
+			<property name="SetNumber" value="1-086" />
+			<property name="CardNumber" value="86" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Archer" id="74d9a2aa-d2a6-41c7-9005-843d9780a654">
+			<property name="CP" value="1" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="3000" />
+			<property name="Abilities" value="First Strike" />
+			<property name="SetNumber" value="1-087" />
+			<property name="CardNumber" value="87" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Archer" id="f8baa7e0-63b2-4c11-b8a4-26da63f943ad">
+			<property name="CP" value="2" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(2 Wind, dull, put Archer into the Break Zone): Choose 1 Backup of cost 3 or less. Break it." />
+			<property name="SetNumber" value="1-088" />
+			<property name="CardNumber" value="88" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Rikku" id="6ab6f2ce-c6ec-4d9a-a7f0-a1341ca3f317">
+			<property name="CP" value="2" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Al Bhed" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(1 Wind, dull): Your opponent puts 1 card from the top of his/her deck into the Break Zone.
+			&#10;Mug [S] (1 Wind, dull): Your opponent puts the top 2 cards of his/her deck into the Break Zone. You draw 1 card." />
+			<property name="SetNumber" value="1-089" />
+			<property name="CardNumber" value="89" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Rikku" id="47792e1b-7a1c-4e29-b4cb-11a35b372a4d">
+			<property name="CP" value="4" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Al Bhed" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Rikku enters the field, choose up to 5 Backups you control. Return them to their owners' hand." />
+			<property name="SetNumber" value="1-090" />
+			<property name="CardNumber" value="90" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Amodar" id="1b93c148-56cc-42c0-b1c6-1ad657388796">
+			<property name="CP" value="4" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Lieutenant" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: When Amodar enters the field, you may search for 1 [Card Name (Lightning)] or [Card Name (Snow)] and add it to your hand." />
+			<property name="SetNumber" value="1-091" />
+			<property name="CardNumber" value="91" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Dark Knight" id="fa1987d8-37cc-4f24-bbbe-37bf623c53fc">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="3000" />
+			<property name="Abilities" value="For each point of damage you have received, Dark Knight gains +1000 power." />
+			<property name="SetNumber" value="1-092" />
+			<property name="CardNumber" value="92" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Vanille" id="13f370ab-978d-4148-8f73-a31f52a11d9e">
+			<property name="CP" value="4" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Saboteur" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Vanille is put from the field into the Break Zone, search for 1 [Card Name (Hecatoncheir)] and remove it from the game. If you do so, return Vanille onto the field dull." />
+			<property name="SetNumber" value="1-093" />
+			<property name="CardNumber" value="93" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Vincent" id="f9fb1ac0-0ad1-4037-9e9c-b0a867469ead">
+			<property name="CP" value="5" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Gunslinger" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="When Vincent attacks, Vincent gains First Strike until the end of the turn.
+			&#10;Berserk Dance [S] (Dull): Choose 1 Forward. Deal it 6000 damage." />
+			<property name="SetNumber" value="1-094" />
+			<property name="CardNumber" value="94" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Enna Kros" id="728c346f-f90a-407c-af82-944c697f085a">
+			<property name="CP" value="3" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Creator of Worlds" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="The Earth Forwards you control gain +1000 power." />
+			<property name="SetNumber" value="1-095" />
+			<property name="CardNumber" value="95" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="WOFF" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Mystic" id="345e4736-f9cf-4719-b5b9-15518789e910">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="3000" />
+			<property name="Abilities" value="(Put 1 Backup into the Break Zone): Mystic gains +3000 power until the end of the turn." />
+			<property name="SetNumber" value="1-096" />
+			<property name="CardNumber" value="96" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Guy" id="c28bf0d7-a5dc-4380-8669-6b75b585ea97">
+			<property name="CP" value="4" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Rebel" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="Brave
+			&#10;Guy cannot become dull by your opponent's Summons or abilities." />
+			<property name="SetNumber" value="1-097" />
+			<property name="CardNumber" value="97" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="II" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Gabranth" id="0fa88304-d72f-45af-9494-2e7e0f1145a5">
+			<property name="CP" value="6" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Judge" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="For each point of damage you have received, Gabranth gains +1000 power.
+			&#10;If you have received 6 points of damage or more, Gabranth gains Brave." />
+			<property name="SetNumber" value="1-098" />
+			<property name="CardNumber" value="98" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● XII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Black Belt" id="bc88e4ee-b36e-421f-bbea-51d25bc5df23">
+			<property name="CP" value="4" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="" />
+			<property name="SetNumber" value="1-099" />
+			<property name="CardNumber" value="99" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Black Belt" id="bda8df15-eb2a-47f9-afeb-b00646719830">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(1 Earth, dull): Choose 1 blocking Forward. It gains +1000 power until the end of the turn." />
+			<property name="SetNumber" value="1-100" />
+			<property name="CardNumber" value="100" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Gippal" id="93f3d996-0196-4dfa-85b5-78f1fb156e53">
+			<property name="CP" value="4" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Faction Leader" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="EX Burst: When Gippal enters the field, all Forwards you control gail +4000 power until the end of the turn." />
+			<property name="SetNumber" value="1-101" />
+			<property name="CardNumber" value="101" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Khimari" id="a1ec6724-bfb2-4ab5-976f-794aeaae1a48">
+			<property name="CP" value="4" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Guardian" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="Ronso Rage [S] (2 Earth): Choose 1 Forward opponent controls. Khimari gains its Special Ability until the end of the turn. You can use that ability without paying any cost but only once." />
+			<property name="SetNumber" value="1-102" />
+			<property name="CardNumber" value="102" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Khimari" id="1681f12e-f03a-42be-9fe6-5d6c4bba9a31">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Anführer" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="Khimari gains Elements of all the Characters opponent controls except Light and Dark." />
+			<property name="SetNumber" value="1-103" />
+			<property name="CardNumber" value="103" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Kefka" id="05edb189-855e-4bef-bbba-3070d22da16e">
+			<property name="CP" value="4" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Mage" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(Dull): Choose 1 Forward you control. It gains +5000 power until the end of the turn. At the end of the turn, break it." />
+			<property name="SetNumber" value="1-104" />
+			<property name="CardNumber" value="104" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● VI" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Evoker" id="25fd906e-b73b-4813-9500-90172e59535f">
+			<property name="CP" value="1" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="" />
+			<property name="SetNumber" value="1-105" />
+			<property name="CardNumber" value="105" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Golem" id="3ce2180d-1a5f-4ad2-981a-58bcef886d39">
+			<property name="CP" value="1" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Choose 1 Forward. It gains +2000 power until the end of the turn. If it is blocking, it gains +4000 power until the end of the turn instead." />
+			<property name="SetNumber" value="1-106" />
+			<property name="CardNumber" value="106" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Shantotto" id="3ae75333-1fab-4347-b685-59ccebecd784">
+			<property name="CP" value="7" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Mage" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="If Shantotto is on the field, it gains Elements of Fire, Ice, Wind, Earth, Lightning and Water.
+			&#10;When Shantotto enters the field, remove all the Forwards from the game." />
+			<property name="SetNumber" value="1-107" />
+			<property name="CardNumber" value="107" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="DFF ● XI" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Cecil" id="a5b157ff-9069-4222-b0ec-0bc822e423ca">
+			<property name="CP" value="3" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Dark Knight" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When you recieve damage, choose 1 Forward opponent controls. You may deal it 5000 damage." />
+			<property name="SetNumber" value="1-108" />
+			<property name="CardNumber" value="108" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● IV" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Serafie" id="cb074497-0e7f-46c4-a7c2-cb17dc7b4b08">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Companion" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="EX Burst: When Serafie enters the field, each player selects 1 Forward from his/her Break Zone and adds it to his/her hand." />
+			<property name="SetNumber" value="1-109" />
+			<property name="CardNumber" value="109" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="WOFF" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Titan" id="eb517907-ab1c-4377-9e5b-e67d423070ff">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="Choose 1 Forward you control. Dull it. It cannot be broken this turn." />
+			<property name="SetNumber" value="1-110" />
+			<property name="CardNumber" value="110" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Tama" id="958b132c-f0ee-4a9f-9035-76f4ff8de613">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Companion" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(X CP, dull, put Tama into the Break Zone): Play 1 Character Card of cost X or less from your hand onto the field." />
+			<property name="SetNumber" value="1-111" />
+			<property name="CardNumber" value="111" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="WOFF" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Delita" id="e07ef2cd-6d8f-4998-92d9-71e6527d21a2">
+			<property name="CP" value="3" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Knight" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="When Delita enters the field, choose 1 Character you control. Break it.
+			&#10;Northswain's Strike [S] (1 Earth): Choose 1 Forward blocking Delita. Break it." />
+			<property name="SetNumber" value="1-112" />
+			<property name="CardNumber" value="112" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Delita" id="fde59fa5-8a88-4ac9-8ffb-16c958f8c007">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Warrior" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="When Delita blocks, Delita gains +2000 power until the end of the turn." />
+			<property name="SetNumber" value="1-113" />
+			<property name="CardNumber" value="113" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Barret" id="cfefbedb-f931-4f3f-b383-1a2d87c9a42d">
+			<property name="CP" value="3" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="AVALANCHE Operative" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="Hammer Blow [S] (2 Earth): Choose 1 Forward. Deal it 4000 damage. Barret gains +4000 power until the end of the turn." />
+			<property name="SetNumber" value="1-114" />
+			<property name="CardNumber" value="114" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="" />
+		</card>
+		<card name="Geomancer" id="04952be5-2337-4f5a-b3b3-c6c86c49e3ad">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Geomancer enters the field, choose 1 Forward. It gains Brave until the end of the turn." />
+			<property name="SetNumber" value="1-115" />
+			<property name="CardNumber" value="115" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Prishe" id="0de2f831-e6d4-44c0-82d7-83fcba72b3c3">
+			<property name="CP" value="5" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Abhorrent One" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="When Prishe blocks, Prishe gains +4000 power until the end of the turn.
+			&#10;(1 Earth): Prishe gains Brave until the end of the turn.
+			&#10;Auroral Uppercut [S] (1 Earth): Double the power of Prishe until the end of the turn." />
+			<property name="SetNumber" value="1-116" />
+			<property name="CardNumber" value="116" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="DFF ● XI" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Hecatonchier" id="ad21d79e-be81-4d64-9da7-c91307d443cf">
+			<property name="CP" value="3" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="Choose 1 Backup of cost 3 or more. Break it." />
+			<property name="SetNumber" value="1-117" />
+			<property name="CardNumber" value="117" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Mustadio" id="8cdab536-eb0c-4119-b2bb-01cccf87c2bb">
+			<property name="CP" value="5" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Machinist" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Mustadio enters the field, choose 1 dull Backup. Break it." />
+			<property name="SetNumber" value="1-118" />
+			<property name="CardNumber" value="118" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Monk" id="5cce4c1e-c8ed-4a26-9276-9662377c9031">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="" />
+			<property name="SetNumber" value="1-119" />
+			<property name="CardNumber" value="119" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Monk" id="1faafb17-315d-42ed-b3b8-283919f21b6a">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(1 Earth, dull, put Monk into the Break Zone): Choose 1 Forward. It gains +2000 power until the end of the turn." />
+			<property name="SetNumber" value="1-120" />
+			<property name="CardNumber" value="120" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Red Mage" id="e4b57884-e4f7-4d13-ae98-86ac618d2372">
+			<property name="CP" value="2" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(1 Lightning, dull): Choose 1 Forward. It gains Haste until the end of the turn." />
+			<property name="SetNumber" value="1-121" />
+			<property name="CardNumber" value="121" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Exdeath" id="432f2fb9-3bb7-49c0-80ac-9dfb919b1317">
+			<property name="CP" value="5" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Wizard" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="Any card put in the Damage Zone due to Exdeath cannot use its EX Burst." />
+			<property name="SetNumber" value="1-122" />
+			<property name="CardNumber" value="122" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● V" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Odin" id="dd87a1f0-faa9-45a6-8345-6dd4e2362bff">
+			<property name="CP" value="4" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="Choose 1 Forward of cost 4 or less. Break it." />
+			<property name="SetNumber" value="1-123" />
+			<property name="CardNumber" value="123" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Odin" id="79417656-7be3-471e-8249-2a66e5c4d07d">
+			<property name="CP" value="7" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Choose 1 Forward. Break it." />
+			<property name="SetNumber" value="1-124" />
+			<property name="CardNumber" value="124" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Onion Knight" id="f8fd71e8-4d1c-4abe-9c25-3b8c466ab3f8">
+			<property name="CP" value="3" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Sage" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="When Onion Knight enters the field, choose 1 damaged Forward. Deal it 5000 damage." />
+			<property name="SetNumber" value="1-125" />
+			<property name="CardNumber" value="125" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Orlandeau" id="898944ed-8d3d-47b4-a8be-c431964810a7">
+			<property name="CP" value="5" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Sword Saint" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Orlandeau attacks, deal 3000 damage to all the Forwards opponent controls.
+			&#10;(2 Lightning): Orlandeau gains Haste until the end of the turn." />
+			<property name="SetNumber" value="1-126" />
+			<property name="CardNumber" value="126" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Kain" id="ee77c6a1-9005-4714-86e6-1496e29fe477">
+			<property name="CP" value="6" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Dragoon" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="EX Burst: When Kain enters the field, choose 1 Forward. It loses 5000 power until the end of the turn.
+			&#10;Dragon's Pride [S] (2 Lightning, dull): Choose 1 Forward. Break it. Kain will not activate during your next Active Phase." />
+			<property name="SetNumber" value="1-127" />
+			<property name="CardNumber" value="127" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● IV" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Gilgamesh" id="54cd1dcc-8099-4bbf-9f29-b0441678eb7a">
+			<property name="CP" value="3" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Praetorian" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="Gilgamesh Morphing Time [S] (2 Lightning): Until the end of the turn, Gilgamesh doubles its power and gains First Strike and Brave. Gilgamesh can attack twice this turn. You can use this ability only during your turn" />
+			<property name="SetNumber" value="1-128" />
+			<property name="CardNumber" value="128" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● V" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Gilgamesh" id="29d06317-b717-448d-bef7-fc469b561004">
+			<property name="CP" value="4" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Praetorian" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="Brave
+			&#10;Strongest Sword [S] (Dull): Choose 1 Forward. Remove the top card of your deck from the game. If the removed card is a Forward, break it. If not, deal it 3000 damage." />
+			<property name="SetNumber" value="1-129" />
+			<property name="CardNumber" value="129" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="DFF ● V" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Black Mage" id="5dfe81af-2e1c-45e8-95af-fe4b72ce6531">
+			<property name="CP" value="2" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(2 Lightning, dull, put Black Mage into the Break Zone): Choose 1 damaged Forward. Break it." />
+			<property name="SetNumber" value="1-130" />
+			<property name="CardNumber" value="130" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Cait Sith" id="64feee6c-8007-4261-b5be-43442886b717">
+			<property name="CP" value="3" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Spy" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="When Cait Sith enters the field, choose 1 Backup of cost 1 or less. Break it.
+			&#10;Slots [S] (1 Lightning, dull): Remove the top card of your deck from the game. If it's a Forward, deal 7000 damage to all the active Forwards opponent controls." />
+			<property name="SetNumber" value="1-131" />
+			<property name="CardNumber" value="131" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Cait Sith" id="efda6e30-c177-46c2-b267-607914d1850e">
+			<property name="CP" value="1" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Spy" />
+			<property name="Power" value="2000" />
+			<property name="Abilities" value="EX Burst: When Cait Sith enters the field, choose 1 Forward your opponent controls. Dull it." />
+			<property name="SetNumber" value="1-132" />
+			<property name="CardNumber" value="132" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Sage" id="c5bee0c3-66e4-4de4-b054-62f0e618d78c">
+			<property name="CP" value="4" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Sage enters the field, choose 1 character from your Break Zone. Add it to your hand." />
+			<property name="SetNumber" value="1-133" />
+			<property name="CardNumber" value="133" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Duke Goltanna" id="b07c6b60-c0e3-4b7d-9f85-5e75950016e1">
+			<property name="CP" value="3" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Duke" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Duke Goltanna enters the field, you may search for 1 [Job (Knight)] and add it to your hand." />
+			<property name="SetNumber" value="1-134" />
+			<property name="CardNumber" value="134" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Golbez" id="6c19bede-5a51-400e-9e68-1d37440e7722">
+			<property name="CP" value="6" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Warlock" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="When Golbez is put from the field into the Break Zone, you may search for up to 4 Forwards of cost 2, each of a different Element and play them onto the field. Their auto-abilities will not trigger." />
+			<property name="SetNumber" value="1-135" />
+			<property name="CardNumber" value="135" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="DFF ● IV" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Zalbaag" id="8304f3aa-1b73-4a0a-820c-775b609ad166">
+			<property name="CP" value="3" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Knight" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="When Zalbaag enters the field, choose 1 Forward of cost 2. Break it." />
+			<property name="SetNumber" value="1-136" />
+			<property name="CardNumber" value="136" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Seymour" id="a4022bcd-20ec-41d6-93b8-7be65f2dd2a4">
+			<property name="CP" value="4" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Summoner" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Seymour enters the field, choose 1 Forward of cost 3 or less. Break it." />
+			<property name="SetNumber" value="1-137" />
+			<property name="CardNumber" value="137" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Summoner" id="8c4e09ee-6cf0-48b4-bdec-26e424326089">
+			<property name="CP" value="1" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="" />
+			<property name="SetNumber" value="1-138" />
+			<property name="CardNumber" value="138" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Summoner" id="1bd50091-2825-4461-a9df-38d3bb5b04ca">
+			<property name="CP" value="3" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(Dull, put Summoner into the Break Zone): Cast 1 Summon of cost 6 or less from your hand without paying its cost." />
+			<property name="SetNumber" value="1-139" />
+			<property name="CardNumber" value="139" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Magus" id="3ddc369b-8e41-4576-afc5-dec022971d4c">
+			<property name="CP" value="3" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Magus enters the field, choose 1 Forward. Deal it 5000 damage." />
+			<property name="SetNumber" value="1-140" />
+			<property name="CardNumber" value="140" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Lightning" id="f0ada83a-2f37-40b2-a0e7-b78f7f3b6dc9">
+			<property name="CP" value="6" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Ravager" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="When Lightning enters the field, you may search for 1 [Card Name (Odin)] and add it to your hand.
+			&#10;Army of One [S] (1 Lightning): Until the end of the turn, Lightning gains Haste, First Strike and 'When Lightning attacks, choose up to 1 Forward your opponent controls. If it is possible, it must block Lightning this turn'." />
+			<property name="SetNumber" value="1-141" />
+			<property name="CardNumber" value="141" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Lightning" id="d2c5f662-b7a9-4c85-bc22-21d372f40ba4">
+			<property name="CP" value="4" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Ravager" />
+			<property name="Power" value="4000" />
+			<property name="Abilities" value="Haste
+			&#10;When Lightning enters the field, choose 1 Forward opponent controls. Dull it." />
+			<property name="SetNumber" value="1-142" />
+			<property name="CardNumber" value="142" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Ramuh" id="6192231f-d10b-4a40-aa46-bea5817e807e">
+			<property name="CP" value="1" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Choose 1 active Forward. Deal it 5000 damage." />
+			<property name="SetNumber" value="1-143" />
+			<property name="CardNumber" value="143" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Ramza" id="d95b1206-e4e1-4a5c-917a-f50b1aafb89b">
+			<property name="CP" value="4" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Knight" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="For each Backup you control, Ramza gains +1000 power.
+			&#10;Shout [S] (1 Lightning): Until the end of the turn, Ramza gains +2000 power, Haste and First Strike." />
+			<property name="SetNumber" value="1-144" />
+			<property name="CardNumber" value="144" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Ramza" id="544af3ed-ea60-4991-9d7a-9ea1d1dddcb8">
+			<property name="CP" value="3" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Warrior" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="(Dull): Choose 1 Backup. Activate it." />
+			<property name="SetNumber" value="1-145" />
+			<property name="CardNumber" value="145" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Richard" id="65c3655b-69d2-4d5e-8661-38d5d9064100">
+			<property name="CP" value="4" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Dragoon" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="(1 Lightning, put Richard into the Break Zone): Choose 1 Forward. It cannot be broken this turn." />
+			<property name="SetNumber" value="1-146" />
+			<property name="CardNumber" value="146" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="II" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Dragoon" id="859faf0b-dbbe-41fb-820d-bc16f22059e3">
+			<property name="CP" value="3" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="First Strike" />
+			<property name="SetNumber" value="1-147" />
+			<property name="CardNumber" value="147" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Dragoon" id="4d6ef384-3d17-4817-a582-808ceaa625a6">
+			<property name="CP" value="3" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="Haste" />
+			<property name="SetNumber" value="1-148" />
+			<property name="CardNumber" value="148" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Lulu" id="62cb36aa-fe2d-4f91-bc13-9d8e5bcf9094">
+			<property name="CP" value="5" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Guardian" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(Dull, put 1 Backup into the Break Zone): Choose 1 Forward. Deal it 5000 damage.
+			&#10;Thundaga [S] (1 Thunder, Dull): Choose 1 Forward. Deal it 10000 damage." />
+			<property name="SetNumber" value="1-149" />
+			<property name="CardNumber" value="149" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Lulu" id="84ec979e-655f-46cf-ab85-8ad0f80f5cc2">
+			<property name="CP" value="3" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Guardian" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="The Lightning Forwards you control gain +1000 power." />
+			<property name="SetNumber" value="1-150" />
+			<property name="CardNumber" value="150" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Agrias" id="e4b3104a-fcbd-427f-bee0-fddbce6ff201">
+			<property name="CP" value="5" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Knight" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="First Strike
+			&#10;EX Burst: When Agrias enters the field, you may search for 1 [Card Name (Ovelia)] and add it to your hand." />
+			<property name="SetNumber" value="1-151" />
+			<property name="CardNumber" value="151" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Ultimecia" id="3477cc39-da49-4283-9910-531fb660df48">
+			<property name="CP" value="5" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Witch" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="All the Forwards other than Ultimecia enter the field dull.
+			&#10;Time Compression [S] (3 Water): Freeze all Forwards except Ultimecia." />
+			<property name="SetNumber" value="1-152" />
+			<property name="CardNumber" value="152" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="DFF ● VIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Alma" id="a1d1323c-a7eb-40a7-9279-9d08e4471d71">
+			<property name="CP" value="3" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Cleric" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="If you control [Card Name (Ovelia)], the cost for playing Alma onto the field is reduced by 1.
+			&#10;(Dull): Draw 1 card, then discard 1 card from your hand." />
+			<property name="SetNumber" value="1-153" />
+			<property name="CardNumber" value="153" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Vaan" id="23ac5648-21d1-47a3-95d1-c4dc1148d518">
+			<property name="CP" value="5" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Pirate" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="When Vaan enters the field, draw 1 card.
+			&#10;When Vaan forms a party and attacks, draw 1 card then discard 1 card from your hand." />
+			<property name="SetNumber" value="1-154" />
+			<property name="CardNumber" value="154" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● XII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Warrior of Light" id="159a4221-ec4c-4a7d-b3db-22e8fac24662">
+			<property name="CP" value="4" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Warrior" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="The [Job (Standard Unit)] Forwards you control gain +2000 power and First Strike." />
+			<property name="SetNumber" value="1-155" />
+			<property name="CardNumber" value="155" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● I" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Ovelia" id="170b2e01-8fc9-447f-906c-90f60e4ce20c">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Princess" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="The [Job (Knight)] Forwards you control gain +1000 power." />
+			<property name="SetNumber" value="1-156" />
+			<property name="CardNumber" value="156" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Scholar" id="da07337d-2451-484d-8cb2-c410ebfc3168">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(Dull, put Scholar into the Break Zone): Choose 1 Forward you control. Return it to its owner's hand." />
+			<property name="SetNumber" value="1-157" />
+			<property name="CardNumber" value="157" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Cloud of Darkness" id="bc4e7fd7-8aec-4ae7-95bc-6851daa528e1">
+			<property name="CP" value="6" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Wraith" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Cloud of Darkness enters the field, each Player selects 1 Forward he/she controls. All the Forwards that were not selected are put into the Break Zone." />
+			<property name="SetNumber" value="1-158" />
+			<property name="CardNumber" value="158" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Evoker" id="69564fdf-ceb8-4720-a555-ad8cc7bdc747">
+			<property name="CP" value="1" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="" />
+			<property name="SetNumber" value="1-159" />
+			<property name="CardNumber" value="159" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Gordon" id="cb99221b-7b58-4fd1-ae49-ba7504c11be4">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Prince" />
+			<property name="Power" value="4000" />
+			<property name="Abilities" value="(Dull): The next damage dealt to Gordon becomes 0 this turn." />
+			<property name="SetNumber" value="1-160" />
+			<property name="CardNumber" value="160" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="II" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="White Mage" id="f086c17e-be32-4611-801c-709c296da785">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When White Mage enters the field, choose 1 Forward. Activate it." />
+			<property name="SetNumber" value="1-161" />
+			<property name="CardNumber" value="161" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Cecil" id="cce931e2-753d-49a2-afd8-1fbea7581ee3">
+			<property name="CP" value="5" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Paladin" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="Summons or abilities of your opponent must choose Cecil if possible." />
+			<property name="SetNumber" value="1-162" />
+			<property name="CardNumber" value="162" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="DFF ● IV" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Tidus" id="9c714898-27a4-4c77-8697-a891979204d9">
+			<property name="CP" value="4" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Guardian" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="For each Forward other than Tidus you control, Tidus gains +1000 power.
+			&#10;Blitz Ace [S] (2 Water): Until the end of the turn Tidus gains Brave. Tidus can attack as many times as your points of damage this turn." />
+			<property name="SetNumber" value="1-163" />
+			<property name="CardNumber" value="163" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="DFF ● X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Tidus" id="25fea8d9-5d94-44b8-8d7d-8847f6644634">
+			<property name="CP" value="4" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Guardian" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="When Tidus attacks, all the Water Forwards you control gain +1000 power until the end of the turn." />
+			<property name="SetNumber" value="1-164" />
+			<property name="CardNumber" value="164" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Knight" id="6e79ad68-8843-499c-b714-f381343259a3">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="The Forwards forming a party with Knight don't receive any damage." />
+			<property name="SetNumber" value="1-165" />
+			<property name="CardNumber" value="165" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Knight" id="6f967280-bd4c-45ae-b8eb-c80a84c9362c">
+			<property name="CP" value="1" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="3000" />
+			<property name="Abilities" value="The Forwards forming a party with Knight don't receive any damage." />
+			<property name="SetNumber" value="1-166" />
+			<property name="CardNumber" value="166" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Viking" id="89781383-4aac-4bdb-9ccd-927b4c7ca4a7">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="1000" />
+			<property name="Abilities" value="When Viking enters the field, draw 1 card." />
+			<property name="SetNumber" value="1-167" />
+			<property name="CardNumber" value="167" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Geomancer" id="e307665a-7367-482b-baf4-df865a856d66">
+			<property name="CP" value="3" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="When Geomancer is put from the field into the Break Zone, draw 1 card." />
+			<property name="SetNumber" value="1-168" />
+			<property name="CardNumber" value="168" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Geomancer" id="44923d74-5dc2-4fb4-959e-2e58fe2d4832">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(Dull): Look at the top card of your deck. You may place the card at the bottom of your deck." />
+			<property name="SetNumber" value="1-169" />
+			<property name="CardNumber" value="169" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Faerie" id="d2a64fdd-a52e-40a7-a9a4-db3f55efce12">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Choose 1 Forward. Activate it. Draw 1 card." />
+			<property name="SetNumber" value="1-170" />
+			<property name="CardNumber" value="170" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Minwu" id="6890dcb1-ebef-47d1-b18c-ad9f9b20451c">
+			<property name="CP" value="3" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Mage" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="The Forwards you control don't receive damage that is less than their power." />
+			<property name="SetNumber" value="1-171" />
+			<property name="CardNumber" value="171" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="II" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Moogle" id="3d1957cf-1b3c-467e-a7c9-3b8ccae2ed4c">
+			<property name="CP" value="1" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Draw 2 cards, then discard 1 card from your hand." />
+			<property name="SetNumber" value="1-172" />
+			<property name="CardNumber" value="172" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Mime" id="c1c95a54-14c6-439c-8625-d333d49a5328">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Standard Unit" />
+			<property name="Power" value="4000" />
+			<property name="Abilities" value="When your Attack Phase starts, name 1 Element other than Light and Dark. Until the end of the turn, the Element of Mime becomes the named one.
+			&#10;When Mime forms a party and attacks, draw 1 card." />
+			<property name="SetNumber" value="1-173" />
+			<property name="CardNumber" value="173" />
+			<property name="Rarity" value="C" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Yaag Rosch" id="5ff51ebb-b1be-425d-9aee-bc359a4562c4">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="PSICOM" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="Summons or abilities of your opponent must choose Yaag Rosch if possible." />
+			<property name="SetNumber" value="1-174" />
+			<property name="CardNumber" value="174" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Yuj" id="01c83048-6bb7-40eb-a379-f8db9774364c">
+			<property name="CP" value="3" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="NORA" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Yuj enters the field, draw 1 card and then place 1 card from your hand on the bottom of your deck." />
+			<property name="SetNumber" value="1-175" />
+			<property name="CardNumber" value="175" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Yuna" id="ced3431d-ebd3-4e8e-9b86-7a2d3312b41c">
+			<property name="CP" value="5" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Summoner" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: When Yuna enters the field, choose 1 Forward. Return it to its owner's hand.
+			&#10;When a Character is put from the field into the Break Zone, you may remove it from the game instead." />
+			<property name="SetNumber" value="1-176" />
+			<property name="CardNumber" value="176" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Yuna" id="5f7b1b31-1498-443d-83a4-b5cfe00fe1b8">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Summoner" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="The cost required to cast your Water Summons is reduced by 1 (It cannot become 0)." />
+			<property name="SetNumber" value="1-177" />
+			<property name="CardNumber" value="177" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Leviathan" id="06aab759-499e-4069-9463-61d2bc851959">
+			<property name="CP" value="3" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Choose 1 Forward. Return it to its owner's hand." />
+			<property name="SetNumber" value="1-178" />
+			<property name="CardNumber" value="178" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="FFT" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Leila" id="c216b112-8fa2-4e15-98e1-435e0b9539bc">
+			<property name="CP" value="3" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Pirate" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="When Leila deals damage to your opponent, draw 1 card." />
+			<property name="SetNumber" value="1-179" />
+			<property name="CardNumber" value="179" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="II" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Wakka" id="170b7de8-b83c-44bf-ba07-8113dfbe6492">
+			<property name="CP" value="3" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Blitzballer" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="The Water Forwards you control gain +1000 power." />
+			<property name="SetNumber" value="1-180" />
+			<property name="CardNumber" value="180" />
+			<property name="Rarity" value="R" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Onion Knight" id="3ab3f477-0f7d-4069-b5c4-1114c9802cc7">
+			<property name="CP" value="2" />
+			<property name="Element" value="Light" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Onion Knight" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="Haste
+			&#10;(1 CP, dull, return Onion Knight to its owner's hand): You may play 1 [Card Name (Onion Knight)] from your hand onto the field. You can only use this ability during your turn." />
+			<property name="SetNumber" value="1-181" />
+			<property name="CardNumber" value="181" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● III" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Cloud" id="45c2958c-e089-4a8c-82af-227132cd0271">
+			<property name="CP" value="4" />
+			<property name="Element" value="Light" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="SOLDIER" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="Brave
+			&#10;Meteorain [S] (1 CP, dull): Deal 4000 damage to all the Forwards opponent controls.
+			&#10;Omnislash [S] (3 CP, dull): Choose 1 Forward. Break it." />
+			<property name="SetNumber" value="1-182" />
+			<property name="CardNumber" value="182" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="DFF ● VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Cosmos" id="8b5f994c-cfa1-4950-8942-3381c0730cde">
+			<property name="CP" value="2" />
+			<property name="Element" value="Light" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Goddess of Harmony" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="Cosmos can be played onto the field even if you control other Light Characters.
+			&#10;You can play 2 or more Light Characters onto the field.
+			&#10;If Cosmos is on the field, Cosmos can produce CP of any Element." />
+			<property name="SetNumber" value="1-183" />
+			<property name="CardNumber" value="183" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Chaos" id="de4b516b-33a1-4298-8cc2-9ed6004c97e4">
+			<property name="CP" value="2" />
+			<property name="Element" value="Dark" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="God of Chaos" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="Chaos can be played onto the field even if you control other Dark Characters.
+			&#10;You can play 2 or more Dark Characters onto the field.
+			&#10;If Chaos is on the field, Chaos can produce CP of any Element." />
+			<property name="SetNumber" value="1-184" />
+			<property name="CardNumber" value="184" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="The Emperor" id="45c737fe-926b-4998-8624-51a85383f546">
+			<property name="CP" value="5" />
+			<property name="Element" value="Dark" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Emperor" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="When The Emperor is put from the field into the Break Zone, you may search for 1 [Card Name (The Emperor)] and play it onto the field dull." />
+			<property name="SetNumber" value="1-185" />
+			<property name="CardNumber" value="185" />
+			<property name="Rarity" value="H" />
+			<property name="Category" value="DFF ● II" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Sephiroth" id="ba679c15-93ac-4ae2-99fc-6f0863134c6b">
+			<property name="CP" value="8" />
+			<property name="Element" value="Dark" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="War Hero" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="First Strike
+			&#10;When Sephiroth enters the field, choose 1 Backup. Break it." />
+			<property name="SetNumber" value="1-186" />
+			<property name="CardNumber" value="186" />
+			<property name="Rarity" value="L" />
+			<property name="Category" value="DFF ● VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Cloud" id="125a98ab-63f7-4d54-9d1a-e435ba434c95">
+			<property name="CP" value="6" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="SOLDIER" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="The cost required to play Cloud onto the field is reduced by 1 for each [Category (VII)] Forward you control.
+			&#10;Each time a Forward you control attacks, it gains +1000 power until the end of the turn.
+			&#10;Climhazzard [S] (1 Fire, 1 CP, Dull): Choose 1 Forward. Deal it 8000 damage." />
+			<property name="SetNumber" value="1-187" />
+			<property name="CardNumber" value="187" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Zangan" id="387585c0-8c7d-4e8c-8327-809d5cb01f85">
+			<property name="CP" value="4" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Martial Arts Master" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: When Zangan enters the field, you may search for 1 [Card Name (Tifa)] and add it to your hand.
+			&#10;The [Card Name (Tifa)] of cost 4 or less you control gains Haste." />
+			<property name="SetNumber" value="1-188" />
+			<property name="CardNumber" value="188" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Tifa" id="d6234fe0-11cc-4d61-b01a-e0ae6353e41a">
+			<property name="CP" value="4" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Martial Artist" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="Waterkick [S] (1 Fire): Choose 1 Forward. Dull it and deal it 6000 damage." />
+			<property name="SetNumber" value="1-189" />
+			<property name="CardNumber" value="189" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Bahamut Fury" id="f8779358-4571-405f-8cd9-f2382428c9ad">
+			<property name="CP" value="2" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Choose 1 Forward. You may discard 1 card from your hand. If you do so, deal it 7000 damage. If not, deal it 5000 damage." />
+			<property name="SetNumber" value="1-190" />
+			<property name="CardNumber" value="190" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="" />
+		</card>
+		<card name="Red XIII" id="e1a607a1-3db3-451f-add1-0f75847e9c8f">
+			<property name="CP" value="3" />
+			<property name="Element" value="Fire" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Warrior" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Red XIII enters the field, choose 1 Forward. It gains +3000 power until the end of the turn.
+			&#10;Cosmo Memory [S] (4 Fire, dull): Deal 6000 damage to all the Forwards opponent controls." />
+			<property name="SetNumber" value="1-191" />
+			<property name="CardNumber" value="191" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Cid Raines" id="c0e1489e-45b0-4772-8f84-eebfcf985780">
+			<property name="CP" value="2" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="The Cavalry" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="When Cid Raines enters the field, choose 1 dull Forward your opponent controls. Deal it 4000 damage. If it is placed from the field in the Break Zone this turn, your opponent discards 1 card from his/her hand." />
+			<property name="SetNumber" value="1-192" />
+			<property name="CardNumber" value="192" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Jihl Nabaat" id="7ab22c84-c1b5-4280-ad0c-e8c0e4550b21">
+			<property name="CP" value="2" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Saboteur" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: When Jill Nabatt enters the field, freeze up to 2 Forwards. 
+			&#10;Sadistic Surge [S] (1 Water, dull): Choose 1 Forward. Dull and freeze it." />
+			<property name="SetNumber" value="1-193" />
+			<property name="CardNumber" value="193" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Snow" id="cabe07cb-3b45-43c6-a6d4-b9a7c0c5336a">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Sentinel" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Snow blocks, choose 1 Forward. Dull it.
+			&#10;Soverign Fist [S] (1 Ice): Until the end of the turn, Snow gains +2000 power and First Strike. You can only use this ability while Snow is blocking." />
+			<property name="SetNumber" value="1-194" />
+			<property name="CardNumber" value="194" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Serah" id="3dee8121-5aa3-41b5-b46b-d9a1209b8f0f">
+			<property name="CP" value="4" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Saboteur" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="When Serah enters the field, your opponent discards 1 card from his/her hand." />
+			<property name="SetNumber" value="1-195" />
+			<property name="CardNumber" value="195" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Mog (XIII-2)" id="6f80ade5-2bb3-48f9-b786-1bc3ba8f0f67">
+			<property name="CP" value="3" />
+			<property name="Element" value="Ice" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Moogle" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Mog (XIII-2) enters the field, you may search for 1 [Category (XIII)] Forward and add it to your hand." />
+			<property name="SetNumber" value="1-196" />
+			<property name="CardNumber" value="196" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Brother" id="ebc7f1f6-2dee-4064-aa7e-6edca53b121a">
+			<property name="CP" value="3" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Gullwings" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Brother enters the field, you may search for 1 [Category (X)] Forward and add it to your hand." />
+			<property name="SetNumber" value="1-197" />
+			<property name="CardNumber" value="197" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Valefor" id="013cb33f-e473-41ca-8478-954b7081cbc4">
+			<property name="CP" value="2" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Summon" />
+			<property name="Occupation" value="" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="EX Burst: Deal 3000 damage to all the Forwards opponent controls. If you control [Card Name (Yuna)], activate all the Backups you control." />
+			<property name="SetNumber" value="1-198" />
+			<property name="CardNumber" value="198" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Paine" id="5758da08-1b83-4bb6-bc34-013f36166e1e">
+			<property name="CP" value="3" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Gullwings" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Paine enters the field and you control [Card Name (Yuna)], draw 1 card.
+			&#10;When Paine enters the field and you control [Card Name (Rikku)], choose up to 3 supporters you control. Activate them." />
+			<property name="SetNumber" value="1-199" />
+			<property name="CardNumber" value="199" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Baralai" id="f2f6374e-918b-4617-ab2b-6d6ceee6bd66">
+			<property name="CP" value="2" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Praetor" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(Dull, put Baralai into the Break Zone): Choose 1 Forward. Activate it." />
+			<property name="SetNumber" value="1-200" />
+			<property name="CardNumber" value="200" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Rikku" id="4aaba156-b728-44b1-9954-c3e97903be30">
+			<property name="CP" value="4" />
+			<property name="Element" value="Wind" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Gullwings" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="If you control [Card Name (Yuna)], Rikku gains +2000 power and cannot be chosen by Summons.
+			&#10;If you control [Card Name (Paine)], Rikku gains +2000 power and cannot be chosen by abilities." />
+			<property name="SetNumber" value="1-201" />
+			<property name="CardNumber" value="201" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Vincent" id="69b6e624-9c5b-4611-b3e6-dc866df1ecde">
+			<property name="CP" value="3" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Gunslinger" />
+			<property name="Power" value="7000" />
+			<property name="Abilities" value="When Vincent attacks, Vincent gains First Strike until the end of the turn." />
+			<property name="SetNumber" value="1-202" />
+			<property name="CardNumber" value="202" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Wedge" id="cfb408dc-01cc-4e10-990e-ca2cf06407b0">
+			<property name="CP" value="4" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="AVALANCHE Operative" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Wedge enters the field, you may search for 1 [Card Name (Biggs)] and add it to your hand." />
+			<property name="SetNumber" value="1-203" />
+			<property name="CardNumber" value="203" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Jessie" id="d70b370f-50f3-4990-a2cd-93b85e207257">
+			<property name="CP" value="3" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="AVALANCHE Operative" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Jessie enters the field, you may search for 1 [Category (VII)] Forward and add it to your hand." />
+			<property name="SetNumber" value="1-204" />
+			<property name="CardNumber" value="204" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Barrett" id="9b140868-c496-4735-86e8-c905787aedcd">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="AVALANCHE Operative" />
+			<property name="Power" value="6000" />
+			<property name="Abilities" value="Grenade Bomb [S]: Deal 2000 damage to all the Forwards opponent controls." />
+			<property name="SetNumber" value="1-205" />
+			<property name="CardNumber" value="205" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Biggs" id="eccdb6e8-28ca-4b9f-bae5-1efb0ab8f74b">
+			<property name="CP" value="2" />
+			<property name="Element" value="Earth" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="AVALANCHE Operative" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When a Backup you control is put from the field into the Break Zone, deal 1000 damage to all the Forwards opponent controls." />
+			<property name="SetNumber" value="1-206" />
+			<property name="CardNumber" value="206" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="VII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Gilgamesh" id="287bafc9-492b-42fe-a583-b3272af1691c">
+			<property name="CP" value="4" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Commando" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="Gilgamesh cannot be returned to its owner's hand by opponent's Summons or abilities.
+			&#10;(2 Lightning): Gilgamesh gains +1000 power until the end of the turn.
+			&#10;Divider [S] (2 Lightning): Choose 1 Forward. Break it. You can only use this ability if you have received 4 points of damage or more." />
+			<property name="SetNumber" value="1-207" />
+			<property name="CardNumber" value="207" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Noel" id="794f104e-5049-440a-9605-d88a2e81044b">
+			<property name="CP" value="3" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Commando" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="Haste
+			&#10;If you control [Card Name (Serah)], Noel gains +2000 power." />
+			<property name="SetNumber" value="1-208" />
+			<property name="CardNumber" value="208" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Maqui" id="f1c8fda6-252b-46ed-9632-949878469a44">
+			<property name="CP" value="2" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="NORA" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="(1 Lightning, dull): Select 1 attacking Lightning Forward. It gains First Strike until the end of the turn." />
+			<property name="SetNumber" value="1-209" />
+			<property name="CardNumber" value="209" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Lightning" id="8eaa5227-4910-4c27-ab7b-575509a98738">
+			<property name="CP" value="6" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Ravager" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="The cost required to play Lightning onto the field is reduced by 1 for each [Category (XIII)] Forward you control.
+			&#10;Haste
+			&#10;When Lightning deals damage to your opponent, choose 1 Forward your opponent controls. Dull it." />
+			<property name="SetNumber" value="1-210" />
+			<property name="CardNumber" value="210" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Rygdea" id="c0c70c87-e131-4632-b2b5-6a62069411cc">
+			<property name="CP" value="2" />
+			<property name="Element" value="Lightning" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="The Cavalry" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="When Rygdea enters the field, choose 1 active Forward. Deal it 3000 damage. When it is put from the field into the Break Zone this turn, choose 1 Forward opponent controls. Dull it." />
+			<property name="SetNumber" value="1-211" />
+			<property name="CardNumber" value="211" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="XIII" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Shuyin" id="e67694b9-3379-4542-ae53-4f6a5e6d3e9e">
+			<property name="CP" value="4" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Illusion" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When Shuyin enters the field, choose 1 Forward of cost 3 or less opponent controls. Return it to its owner's hand." />
+			<property name="SetNumber" value="1-212" />
+			<property name="CardNumber" value="212" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="Yes" />
+		</card>
+		<card name="Tidus" id="6fc4ad59-1c3a-4327-834a-0fae4c01f572">
+			<property name="CP" value="6" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Guardian" />
+			<property name="Power" value="9000" />
+			<property name="Abilities" value="The cost required to play Tidus onto the field is reduced by 1 for each [Category (X)] Forward you control.
+			&#10;If you control [Card Name (Yuna)], Tidus gains Brave.
+			&#10;When the Forward [Card Name (Yuna)] is put from your field into the Break Zone, draw 2 cards." />
+			<property name="SetNumber" value="1-213" />
+			<property name="CardNumber" value="213" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Yuna" id="2bbcbbc4-3f23-45c0-b1ff-9b8a7a03bd9e">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Summoner" />
+			<property name="Power" value="5000" />
+			<property name="Abilities" value="When you cast a Summon, you may dull Yuna if it is active. If you do so, draw 1 card. This effect will trigger only once per turn." />
+			<property name="SetNumber" value="1-214" />
+			<property name="CardNumber" value="214" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Lenne" id="17824d7c-c53e-43e8-b48c-6b39ef73a2b8">
+			<property name="CP" value="2" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Backup" />
+			<property name="Occupation" value="Summoner" />
+			<property name="Power" value="" />
+			<property name="Abilities" value="When your opponent plays a Summon, activate Lenne." />
+			<property name="SetNumber" value="1-215" />
+			<property name="CardNumber" value="215" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+		<card name="Wakka" id="69a59a48-8aec-4fbf-bd38-458861847f18">
+			<property name="CP" value="4" />
+			<property name="Element" value="Water" />
+			<property name="CardType" value="Forward" />
+			<property name="Occupation" value="Blitzballer" />
+			<property name="Power" value="8000" />
+			<property name="Abilities" value="When Wakka attacks, choose 1 Forward you control. Until the end of the turn, it gains +1000 power for every Forward you control.
+			&#10;Status Reels [S] (1 Water): Choose 1 Forward. Until the end of the turn, it loses all its abilities and its power becomes 1000." />
+			<property name="SetNumber" value="1-216" />
+			<property name="CardNumber" value="216" />
+			<property name="Rarity" value="S" />
+			<property name="Category" value="X" />
+			<property name="CanUseEX" value="No" />
+		</card>
+	</cards>
+</set>

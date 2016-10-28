@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" sleeveid="0">
+  <section name="Forwards" shared="False">
+    <card qty="2" id="8b262ff0-be07-48d9-b8d3-e4c073e215c5">Ninja</card>
+    <card qty="2" id="74d9a2aa-d2a6-41c7-9005-843d9780a654">Archer</card>
+    <card qty="3" id="5758da08-1b83-4bb6-bc34-013f36166e1e">Paine</card>
+    <card qty="3" id="4aaba156-b728-44b1-9954-c3e97903be30">Rikku</card>
+    <card qty="2" id="6e79ad68-8843-499c-b714-f381343259a3">Knight</card>
+    <card qty="2" id="89781383-4aac-4bdb-9ccd-927b4c7ca4a7">Viking</card>
+    <card qty="2" id="e307665a-7367-482b-baf4-df865a856d66">Elementalist</card>
+    <card qty="3" id="6fc4ad59-1c3a-4327-834a-0fae4c01f572">Tidus</card>
+    <card qty="3" id="2bbcbbc4-3f23-45c0-b1ff-9b8a7a03bd9e">Yuna</card>
+    <card qty="3" id="69a59a48-8aec-4fbf-bd38-458861847f18">Wakka</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="2" id="2cb2432c-3627-4a60-a55a-0fdf0a1b770e">Evoker</card>
+    <card qty="2" id="4c89150f-720c-44a1-82f2-f4255d39affb">Shaman</card>
+    <card qty="3" id="ebc7f1f6-2dee-4064-aa7e-6edca53b121a">Brother</card>
+    <card qty="3" id="f2f6374e-918b-4617-ab2b-6d6ceee6bd66">Baralai</card>
+    <card qty="2" id="69564fdf-ceb8-4720-a555-ad8cc7bdc747">Evoker</card>
+    <card qty="3" id="e67694b9-3379-4542-ae53-4f6a5e6d3e9e">Shuyin</card>
+    <card qty="3" id="17824d7c-c53e-43e8-b48c-6b39ef73a2b8">Lenne</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="ae5aace1-12aa-4d09-a8f2-5684b68c52ab">Sylph</card>
+    <card qty="3" id="013cb33f-e473-41ca-8478-954b7081cbc4">Valefor</card>
+    <card qty="2" id="06aab759-499e-4069-9463-61d2bc851959">Leviathan</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

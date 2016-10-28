@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<game name="Final Fantasy TCG" 
+	id="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43"
+	version="0.1.0.2"
+	octgnVersion="3.1.159.352" 
+	scriptVersion="3.1.0.1"
+    markersize="25"  
+	tags="FF TCG" 
+	description="A game for two players, featuring characters, monsters and summons from the Final Fantasy series." 
+	authors="Casanova_Coeurl" 
+	iconurl="http://i.imgur.com/hLM0iKn.png" 
+	gameurl="http://octgngames.com/fftcg/" 
+	setsurl="http://octgngames.com/fftcg/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<scripts>
+		<script src="scripts/actions.py" />
+    </scripts>
+	
+	<events>
+		<event name="OnTableLoad" action="loadMessage" />
+		<event name="OnLoadDeck" action="checkDeck" />
+	</events>
+	
+	<sounds>
+		<sound name="error" src="sounds/ff8_error.wav" />
+		<sound name="newTurn" src="sounds/ff8_turn.wav" />
+	</sounds>
+	
+    <proxygen definitionsrc="proxy/proxydef.xml">
+    </proxygen>
+	
+	<documents>
+		<document name="OCTGN Instructions" icon="groups/zones/handIcon.png" src="documents/octgn_instructions.pdf" />
+		<document name="How to Play" icon="groups/zones/handIcon.png" src="documents/HowToPlay.pdf" />
+	</documents>
+    
+	<globalvariables>
+        <globalvariable name="FIRST_TURN" value="True" />
+		<globalvariable name="PHASE" value="Start of Game" />
+		<globalvariable name="PLAY_MODE" value="Default" />
+    </globalvariables>
+	
+    <card front="cards/front.png" 
+		back="cards/back.png" 
+		width="95" 
+		height="132" 
+		cornerRadius="0">
+		<property name="CP" type="Integer" />
+		<property name="Element" type="String" />
+		<property name="CardType" type="String" />
+		<property name="Occupation" type="String" />
+		<property name="Power" type="Integer" />
+		<property name="Abilities" type="String" />
+		<property name="SetNumber" type="Integer" hidden="True" />
+		<property name="CardNumber" type="Integer" />
+		<property name="Rarity" type="String" />
+		<property name="Category" type="String" />
+		<property name="CanUseEX" type="String" hidden="True" />
+    </card>
+	
+	<gameboards src="background/blankOverlay.png"
+		x="0" 
+		y="0" 
+		width="1" 
+		height="1">
+		<gameboard name="fieldOverlay" 
+			src="background/fieldOverlay.png"
+			x="-600" 
+			y="-400" 
+			width="1200" 
+			height="800" />
+	</gameboards>
+		
+	
+    <table name="Table" 
+		visibility="undefined" 
+		ordered="False" 
+		width="1024" 
+		height="768" 
+		background="background/blueBackground.png" 
+		backgroundStyle="uniformToFill">
+		<!-- <cardactions menu="This Card"> -->
+			<cardaction menu="Dull / Activate" default="True" execute="dullOrReadyCard" />
+			<cardactions menu="Set +Power...">
+				<cardaction menu="Remove +Power" execute="removePower" />
+				<cardaction menu="Set +Power Manually" execute="addPower_X" />
+				<cardaction menu="1000" shortcut="ctrl+alt+1" execute="addPower_1000" />
+				<cardaction menu="2000" shortcut="ctrl+alt+2" execute="addPower_2000" />
+				<cardaction menu="3000" shortcut="ctrl+alt+3" execute="addPower_3000" />
+				<cardaction menu="4000" shortcut="ctrl+alt+4" execute="addPower_4000" />
+				<cardaction menu="5000" shortcut="ctrl+alt+5" execute="addPower_5000" />
+				<cardaction menu="6000" shortcut="ctrl+alt+6" execute="addPower_6000" />
+				<cardaction menu="7000" shortcut="ctrl+alt+7" execute="addPower_7000" />
+				<cardaction menu="8000" shortcut="ctrl+alt+8" execute="addPower_8000" />
+				<cardaction menu="9000" shortcut="ctrl+alt+9" execute="addPower_9000" />
+				<cardaction menu="10000" shortcut="ctrl+alt+0" execute="addPower_10000" />
+			</cardactions>
+			<cardactions menu="Set Damage...">
+				<cardaction menu="Remove Damage" execute="removeDamage" />
+				<cardaction menu="Set Damage Manually" execute="dealDamage_X" />
+				<cardaction menu="1000" shortcut="alt+1" execute="dealDamage_1000" />
+				<cardaction menu="2000" shortcut="alt+2" execute="dealDamage_2000" />
+				<cardaction menu="3000" shortcut="alt+3" execute="dealDamage_3000" />
+				<cardaction menu="4000" shortcut="alt+4" execute="dealDamage_4000" />
+				<cardaction menu="5000" shortcut="alt+5" execute="dealDamage_5000" />
+				<cardaction menu="6000" shortcut="alt+6" execute="dealDamage_6000" />
+				<cardaction menu="7000" shortcut="alt+7" execute="dealDamage_7000" />
+				<cardaction menu="8000" shortcut="alt+8" execute="dealDamage_8000" />
+				<cardaction menu="9000" shortcut="alt+9" execute="dealDamage_9000" />
+				<cardaction menu="10000" shortcut="alt+0" execute="dealDamage_10000" />
+			</cardactions>
+			<cardactions menu="Forwards">
+				<cardaction menu="Declare Attack" shortcut="alt+a" execute="declareAttack" />
+				<cardaction menu="Declare Defense" shortcut="alt+d" execute="declareDefense" />
+				<cardaction menu="Stop Attacking/Defending" shortcut="alt+s" execute="stopAttackingOrDefending" />
+			</cardactions>
+			<cardactions menu="Backups">
+				<cardaction menu="Dull and Gain CP" execute="dullAndGainCP" />
+			</cardactions>
+			<groupaction menu="Fix Cards Playing on Wrong Side of Table" shortcut="F10" execute="fixCardsPlayingOnWrongSide" />
+		<!-- </cardactions> -->
+		<groupaction menu="Next Phase" shortcut="tab" execute="nextPhase" />
+		<groupactions menu="Go to Phase...">
+			<groupaction menu="Active Phase" shortcut="F1" execute="goToActivePhase" />
+			<groupaction menu="Draw Phase" shortcut="F2" execute="goToDrawPhase" />
+			<groupaction menu="Main Phase (1)" shortcut="F3" execute="goToMainPhaseFirst" />
+			<groupaction menu="Attack Phase" shortcut="F4" execute="goToAttackPhase" />
+			<groupaction menu="Main Phase (2) Phase" shortcut="F5" execute="goToMainPhaseSecond" />
+			<groupaction menu="End Phase" shortcut="F6" execute="goToEndPhase" />
+			<groupaction menu="Pass Control to Opponent" shortcut="F7" execute="passControlToOpponent" />
+		</groupactions>
+		<groupactions menu="Dice and Coins">
+			<groupaction menu="Roll D6" execute="rollSixSidedDice" />
+			<groupaction menu="Roll X-Sided Die" shortcut="alt+X" execute="rollManySidedDice" />
+			<groupaction menu="Flip a Coin" shortcut="alt+F" execute="flipCoin" />
+		</groupactions>
+    </table>
+	
+	<player summary="Hand:{#Hand}, Damage:{#Damage Taken}">
+		<counter name="Fire CP" 
+			default="0"
+			icon="groups/counters/fireCounter.png" />
+		<counter name="Ice CP" 
+			default="0"
+			icon="groups/counters/iceCounter.png" />
+		<counter name="Wind CP" 
+			default="0"
+			icon="groups/counters/windCounter.png" />
+		<counter name="Earth CP" 
+			default="0"
+			icon="groups/counters/earthCounter.png" />
+		<counter name="Lightning CP" 
+			default="0"
+			icon="groups/counters/thunderCounter.png" />
+		<counter name="Water CP" 
+			default="0"
+			icon="groups/counters/waterCounter.png" />
+		<!-- 
+		<counter name="Light CP" 
+			default="0"
+			icon="groups/counters/lightCounter.png" />
+		<counter name="Dark CP" 
+			default="0"
+			icon="groups/counters/darkCounter.png" />
+		-->
+		<counter name="Damage Taken"
+			default="0"
+			icon="groups/zones/breakZoneIcon.png" />
+		
+		<hand name="Hand" 
+			width="63" 
+			height="88" 
+			visibility="me" 
+			ordered="False" 
+			icon="groups/zones/handIcon.png">
+			<!-- <cardactions menu="This Card"> -->
+				<cardaction menu="Play Card" execute="verifyAndPlayCard" />
+				<cardaction menu="Discard" execute="discardThisCard" />
+				<cardaction menu="Discard and Gain CP" execute="discardAndGainCP" />
+			<!-- </cardactions> -->
+			<!-- <groupactions menu="Hand"> -->
+				<groupaction menu="Discard a Random Card" execute="discardRandomCard" />
+				<groupaction menu="Discard X Random Cards" execute="discardManyRandomCards" />
+				<groupaction menu="Sort Hand" shortcut="ctrl+shift+S" execute="sortHand" />
+				<groupaction menu="Draw 5 Cards from Deck" shortcut="f12" execute="drawInitial" />
+				<groupaction menu="Mulligan" shortcut="ctrl+f12" execute="mulliganHand" />
+			<!-- </groupactions> -->
+		</hand>
+		<group name="Deck"
+			width="63"
+			height="88"
+			visibility="none"
+			ordered="True"
+			collapsed="False"
+			icon="groups/zones/deckIcon.png">
+			<!-- <groupactions menu="Deck"> -->
+				<groupaction menu="Draw a Card" shortcut="ctrl+D" default="True" execute="drawCard" />
+				<groupaction menu="Draw X Cards" shortcut="ctrl+shift+D" execute="drawManyCards" />
+				<groupaction menu="Mill X Cards" shortcut="ctrl+alt+D" execute="millManyCards" />
+				<groupaction menu="Place Card into Damage Zone" execute="placeCardIntoDamageZone" />
+				<groupaction menu="Shuffle Deck" shortcut="ctrl+S" execute="shuffleDeck" />
+			<!-- </groupactions> -->
+		</group>
+		<group name="Damage Zone"
+			width="63"
+			height="88"
+			visibility="all"
+			ordered="False"
+			collapsed="False"
+			icon="groups/zones/damageZoneIcon.png">
+			<!-- Blank -->
+		</group>
+		<group name="Break Zone"
+			width="63"
+			height="88"
+			visibility="all"
+			ordered="False"
+			collapsed="False"
+			icon="groups/zones/breakZoneIcon.png">
+			<!-- <groupactions menu="Break Zone"> -->
+				<!-- <groupaction menu="Shuffle Back into Deck" execute="shuffleBreakZoneBackIntoDeck" /> -->
+			<!-- </groupactions> -->
+		</group>
+		<group name="Removed From Game"
+			width="63"
+			height="88"
+			visibility="all"
+			ordered="False"
+			collapsed="False"
+			icon="groups/zones/removedIcon.png">
+			<!-- Blank -->
+		</group>
+	</player>
+	
+	<deck>
+		<section name="Forwards" group="Deck" />
+		<section name="Backups" group="Deck" />
+		<section name="Summons" group="Deck" />
+	</deck>
+</game>

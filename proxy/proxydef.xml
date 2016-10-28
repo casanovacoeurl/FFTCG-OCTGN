@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<templates>
+	<blocks>
+		<block type="text" id="cpTextBlock">
+			<location x="20" y="20" />
+			<text color="#000000" size="55" />
+			<wordwrap width="40" height="40" align="center" valign="center" shrinktofit="True" />
+		</block>
+		<block type="text" id="cardNameTextBlock">
+			<location x="60" y="20" />
+			<text color="#000000" size="55" />
+			<wordwrap width="300" height="40" align="near" valign="center" shrinktofit="True" />
+		</block>
+		<block type="overlay" id="exBurstOverlayBlock" src="proxy/exSymbol.png">
+			<location x="320" y="20" />
+		</block>
+		<block type="text" id="cardTypeTextBlock">
+			<location x="20" y="260" />
+			<text color="#000000" size="35" />
+			<wordwrap width="60" height="30" align="center" valign="center" shrinktofit="True" />
+		</block>
+		<block type="text" id="occupationTextBlock">
+			<location x="80" y="260" />
+			<text color="#000000" size="40" />
+			<wordwrap width="230" height="30" align="center" valign="center" shrinktofit="True" />
+		</block>
+		<block type="text" id="categoryTextBlock">
+			<location x="310" y="260" />
+			<text color="#000000" size="35" />
+			<wordwrap width="60" height="30" align="center" valign="center" shrinktofit="True" />
+		</block>
+		<block type="text" id="abilitiesTextBlock">
+			<location x="20" y="310" />
+			<text color="#000000" size="24" />
+			<wordwrap width="360" height="168" align="near" valign="near" shrinktofit="True" />
+		</block>
+		<block type="text" id="powerTextBlock">
+			<location x="260" y="488" />
+			<text color="#000000" size="75" />
+			<wordwrap width="120" height="60" align="center" valign="center" shrinktofit="True" />
+		</block>
+		<block type="text" id="setNumberTextBlock">
+			<location x="170" y="510" />
+			<text color="#000000" size="15" />
+			<wordwrap width="50" height="20" align="near" valign="center" shrinktofit="True" />
+		</block>
+		<block type="text" id="rarityTextBlock">
+			<location x="215" y="510" />
+			<text color="#000000" size="15" />
+			<wordwrap width="20" height="20" align="near" valign="center" shrinktofit="True" />
+		</block>
+	</blocks>
+	
+	<template src="proxy/fireProxy.png" default="True">
+		<matches>
+			<match name="Element" value="Fire" />
+		</matches>
+		<overlayblocks>
+			<conditional>
+				<if property="CanUseEX" value="Yes">
+					<link block="exBurstOverlayBlock" />
+				</if>
+			</conditional>
+		</overlayblocks>
+		<textblocks>
+			<link block="cpTextBlock">
+				<property name="CP" />
+			</link>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+			<link block="cardTypeTextBlock">
+				<property name="CardType" />
+			</link>
+			<link block="occupationTextBlock">
+				<property name="Occupation" />
+			</link>
+			<link block="categoryTextBlock">
+				<property name="Category" />
+			</link>
+			<link block="abilitiesTextBlock">
+				<property name="Abilities" />
+			</link>
+			<link block="setNumberTextBlock">
+				<property name="SetNumber" />
+			</link>
+			<link block="rarityTextBlock">
+				<property name="Rarity" />
+			</link>
+			<conditional>
+				<if property="CardType" value="Forward">
+					<link block="powerTextBlock">
+						<property name="Power" />
+					</link>
+				</if>
+			</conditional>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/iceProxy.png">
+		<matches>
+			<match name="Element" value="Ice" />
+		</matches>
+		<overlayblocks>
+			<conditional>
+				<if property="CanUseEX" value="Yes">
+					<link block="exBurstOverlayBlock" />
+				</if>
+			</conditional>
+		</overlayblocks>
+		<textblocks>
+			<link block="cpTextBlock">
+				<property name="CP" />
+			</link>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+			<link block="cardTypeTextBlock">
+				<property name="CardType" />
+			</link>
+			<link block="occupationTextBlock">
+				<property name="Occupation" />
+			</link>
+			<link block="categoryTextBlock">
+				<property name="Category" />
+			</link>
+			<link block="abilitiesTextBlock">
+				<property name="Abilities" />
+			</link>
+			<link block="setNumberTextBlock">
+				<property name="SetNumber" />
+			</link>
+			<link block="rarityTextBlock">
+				<property name="Rarity" />
+			</link>
+			<conditional>
+				<if property="CardType" value="Forward">
+					<link block="powerTextBlock">
+						<property name="Power" />
+					</link>
+				</if>
+			</conditional>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/lightningProxy.png">
+		<matches>
+			<match name="Element" value="Lightning" />
+		</matches>
+		<overlayblocks>
+			<conditional>
+				<if property="CanUseEX" value="Yes">
+					<link block="exBurstOverlayBlock" />
+				</if>
+			</conditional>
+		</overlayblocks>
+		<textblocks>
+			<link block="cpTextBlock">
+				<property name="CP" />
+			</link>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+			<link block="cardTypeTextBlock">
+				<property name="CardType" />
+			</link>
+			<link block="occupationTextBlock">
+				<property name="Occupation" />
+			</link>
+			<link block="categoryTextBlock">
+				<property name="Category" />
+			</link>
+			<link block="abilitiesTextBlock">
+				<property name="Abilities" />
+			</link>
+			<link block="setNumberTextBlock">
+				<property name="SetNumber" />
+			</link>
+			<link block="rarityTextBlock">
+				<property name="Rarity" />
+			</link>
+			<conditional>
+				<if property="CardType" value="Forward">
+					<link block="powerTextBlock">
+						<property name="Power" />
+					</link>
+				</if>
+			</conditional>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/earthProxy.png">
+		<matches>
+			<match name="Element" value="Earth" />
+		</matches>
+		<overlayblocks>
+			<conditional>
+				<if property="CanUseEX" value="Yes">
+					<link block="exBurstOverlayBlock" />
+				</if>
+			</conditional>
+		</overlayblocks>
+		<textblocks>
+			<link block="cpTextBlock">
+				<property name="CP" />
+			</link>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+			<link block="cardTypeTextBlock">
+				<property name="CardType" />
+			</link>
+			<link block="occupationTextBlock">
+				<property name="Occupation" />
+			</link>
+			<link block="categoryTextBlock">
+				<property name="Category" />
+			</link>
+			<link block="abilitiesTextBlock">
+				<property name="Abilities" />
+			</link>
+			<link block="setNumberTextBlock">
+				<property name="SetNumber" />
+			</link>
+			<link block="rarityTextBlock">
+				<property name="Rarity" />
+			</link>
+			<conditional>
+				<if property="CardType" value="Forward">
+					<link block="powerTextBlock">
+						<property name="Power" />
+					</link>
+				</if>
+			</conditional>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/windProxy.png">
+		<matches>
+			<match name="Element" value="Wind" />
+		</matches>
+		<overlayblocks>
+			<conditional>
+				<if property="CanUseEX" value="Yes">
+					<link block="exBurstOverlayBlock" />
+				</if>
+			</conditional>
+		</overlayblocks>
+		<textblocks>
+			<link block="cpTextBlock">
+				<property name="CP" />
+			</link>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+			<link block="cardTypeTextBlock">
+				<property name="CardType" />
+			</link>
+			<link block="occupationTextBlock">
+				<property name="Occupation" />
+			</link>
+			<link block="categoryTextBlock">
+				<property name="Category" />
+			</link>
+			<link block="abilitiesTextBlock">
+				<property name="Abilities" />
+			</link>
+			<link block="setNumberTextBlock">
+				<property name="SetNumber" />
+			</link>
+			<link block="rarityTextBlock">
+				<property name="Rarity" />
+			</link>
+			<conditional>
+				<if property="CardType" value="Forward">
+					<link block="powerTextBlock">
+						<property name="Power" />
+					</link>
+				</if>
+			</conditional>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/waterProxy.png">
+		<matches>
+			<match name="Element" value="Water" />
+		</matches>
+		<overlayblocks>
+			<conditional>
+				<if property="CanUseEX" value="Yes">
+					<link block="exBurstOverlayBlock" />
+				</if>
+			</conditional>
+		</overlayblocks>
+		<textblocks>
+			<link block="cpTextBlock">
+				<property name="CP" />
+			</link>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+			<link block="cardTypeTextBlock">
+				<property name="CardType" />
+			</link>
+			<link block="occupationTextBlock">
+				<property name="Occupation" />
+			</link>
+			<link block="categoryTextBlock">
+				<property name="Category" />
+			</link>
+			<link block="abilitiesTextBlock">
+				<property name="Abilities" />
+			</link>
+			<link block="setNumberTextBlock">
+				<property name="SetNumber" />
+			</link>
+			<link block="rarityTextBlock">
+				<property name="Rarity" />
+			</link>
+			<conditional>
+				<if property="CardType" value="Forward">
+					<link block="powerTextBlock">
+						<property name="Power" />
+					</link>
+				</if>
+			</conditional>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/lightProxy.png">
+		<matches>
+			<match name="Element" value="Light" />
+		</matches>
+		<overlayblocks>
+			<conditional>
+				<if property="CanUseEX" value="Yes">
+					<link block="exBurstOverlayBlock" />
+				</if>
+			</conditional>
+		</overlayblocks>
+		<textblocks>
+			<link block="cpTextBlock">
+				<property name="CP" />
+			</link>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+			<link block="cardTypeTextBlock">
+				<property name="CardType" />
+			</link>
+			<link block="occupationTextBlock">
+				<property name="Occupation" />
+			</link>
+			<link block="categoryTextBlock">
+				<property name="Category" />
+			</link>
+			<link block="abilitiesTextBlock">
+				<property name="Abilities" />
+			</link>
+			<link block="setNumberTextBlock">
+				<property name="SetNumber" />
+			</link>
+			<link block="rarityTextBlock">
+				<property name="Rarity" />
+			</link>
+			<conditional>
+				<if property="CardType" value="Forward">
+					<link block="powerTextBlock">
+						<property name="Power" />
+					</link>
+				</if>
+			</conditional>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/darkProxy.png">
+		<matches>
+			<match name="Element" value="Dark" />
+		</matches>
+		<overlayblocks>
+			<conditional>
+				<if property="CanUseEX" value="Yes">
+					<link block="exBurstOverlayBlock" />
+				</if>
+			</conditional>
+		</overlayblocks>
+		<textblocks>
+			<link block="cpTextBlock">
+				<property name="CP" />
+			</link>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+			<link block="cardTypeTextBlock">
+				<property name="CardType" />
+			</link>
+			<link block="occupationTextBlock">
+				<property name="Occupation" />
+			</link>
+			<link block="categoryTextBlock">
+				<property name="Category" />
+			</link>
+			<link block="abilitiesTextBlock">
+				<property name="Abilities" />
+			</link>
+			<link block="setNumberTextBlock">
+				<property name="SetNumber" />
+			</link>
+			<link block="rarityTextBlock">
+				<property name="Rarity" />
+			</link>
+			<conditional>
+				<if property="CardType" value="Forward">
+					<link block="powerTextBlock">
+						<property name="Power" />
+					</link>
+				</if>
+			</conditional>
+		</textblocks>
+	</template>
+</templates>
