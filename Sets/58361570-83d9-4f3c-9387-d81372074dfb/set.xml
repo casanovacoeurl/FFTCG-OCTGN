@@ -4,7 +4,7 @@
 	id="58361570-83d9-4f3c-9387-d81372074dfb" 
 	gameId="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" 
 	gameVersion="0.1.0.1" 
-	version="1.0">
+	version="1.1">
 	<cards>
 		<card name="Auron" id="11c3f62d-2e44-495c-9d5c-a43ffd91cc5e">
 			<property name="CP" value="6" />
@@ -2499,7 +2499,7 @@
 			<property name="Category" value="VII" />
 			<property name="CanUseEX" value="No" />
 		</card>
-		<card name="Zangan" id="387585c0-8c7d-4e8c-8327-809d5cb01f85">
+		<card name="Zangan" id="d6234fe0-11cc-4d61-b01a-e0ae6353e41a">
 			<property name="CP" value="4" />
 			<property name="Element" value="Fire" />
 			<property name="CardType" value="Backup" />
@@ -2513,7 +2513,7 @@
 			<property name="Category" value="VII" />
 			<property name="CanUseEX" value="Yes" />
 		</card>
-		<card name="Tifa" id="d6234fe0-11cc-4d61-b01a-e0ae6353e41a">
+		<card name="Tifa" id="f8779358-4571-405f-8cd9-f2382428c9ad">
 			<property name="CP" value="4" />
 			<property name="Element" value="Fire" />
 			<property name="CardType" value="Forward" />
@@ -2526,7 +2526,7 @@
 			<property name="Category" value="VII" />
 			<property name="CanUseEX" value="No" />
 		</card>
-		<card name="Bahamut Fury" id="f8779358-4571-405f-8cd9-f2382428c9ad">
+		<card name="Bahamut Fury" id="e1a607a1-3db3-451f-add1-0f75847e9c8f">
 			<property name="CP" value="2" />
 			<property name="Element" value="Fire" />
 			<property name="CardType" value="Summon" />
@@ -2539,7 +2539,7 @@
 			<property name="Category" value="VII" />
 			<property name="CanUseEX" value="" />
 		</card>
-		<card name="Red XIII" id="e1a607a1-3db3-451f-add1-0f75847e9c8f">
+		<card name="Red XIII" id="387585c0-8c7d-4e8c-8327-809d5cb01f85">
 			<property name="CP" value="3" />
 			<property name="Element" value="Fire" />
 			<property name="CardType" value="Forward" />
@@ -2587,7 +2587,7 @@
 			<property name="Occupation" value="Sentinel" />
 			<property name="Power" value="7000" />
 			<property name="Abilities" value="When Snow blocks, choose 1 Forward. Dull it.
-			&#10;Soverign Fist [S] (1 Ice): Until the end of the turn, Snow gains +2000 power and First Strike. You can only use this ability while Snow is blocking." />
+			&#10;Vendetta [S] (1 Ice): Until the end of the turn, Snow gains +2000 power and First Strike. You can only use this ability while Snow is blocking." />
 			<property name="SetNumber" value="1-194" />
 			<property name="CardNumber" value="194" />
 			<property name="Rarity" value="S" />
@@ -2595,7 +2595,7 @@
 			<property name="CanUseEX" value="No" />
 		</card>
 		<card name="Serah" id="3dee8121-5aa3-41b5-b46b-d9a1209b8f0f">
-			<property name="CP" value="4" />
+			<property name="CP" value="3" />
 			<property name="Element" value="Ice" />
 			<property name="CardType" value="Forward" />
 			<property name="Occupation" value="Saboteur" />
